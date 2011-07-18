@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<server>
+  <name>twilio.github.com/pear</name>
+  <summary>twilio's PEAR Channel Server</summary>
+  <alias>twilio</alias>
+  <url>http://twilio.github.com/pear</url>
+</server>

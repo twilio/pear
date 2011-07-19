@@ -6,5 +6,17 @@
         <name>http://twilio.github.com/pear</name>
     </author>
 
-
+    <entry>
+        <title>Services_Twilio 0.0.3 (beta)</title>
+        <link href="http://twilio.github.com/pear/get/Services_Twilio-0.0.3.tgz" />
+        <id>Services_Twilio-0.0.3</id>
+        <author>
+            <name>luciferous</name>
+        </author>
+        <updated>2011-07-19T00:01:50-07:00</updated>
+        <content>
+            A SDK (or helper library, as we're calling them) for PHP developers to write
+applications against Twilio's REST API and generate TwiML responses.
+        </content>
+    </entry>
 </feed>

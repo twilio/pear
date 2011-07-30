@@ -2,8 +2,8 @@
 <r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
     <p xlink:href="/rest/p/services_twilio">Services_Twilio</p>
     <c>twilio.github.com/pear</c>
-    <v>3.2.0</v>
-    <a>3.2.0</a>
+    <v>3.2.1</v>
+    <a>3.2.1</a>
     <mp>5.2.1</mp>
     <st>stable</st>
     <l>MIT License</l>
@@ -11,11 +11,11 @@
     <s>PHP helper library for Twilio</s>
     <d>A SDK (or helper library, as were calling them) for PHP developers to write
 applications against Twilios REST API and generate TwiML responses.</d>
-    <da>2011-07-26 13:43:05</da>
+    <da>2011-07-30 00:09:59</da>
     <n>
 No release notes.
  </n>
-    <f>20045</f>
-    <g>http://twilio.github.com/pear/get/Services_Twilio-3.2.0</g>
-    <x xlink:href="package.3.2.0.xml"/>
+    <f>20039</f>
+    <g>http://twilio.github.com/pear/get/Services_Twilio-3.2.1</g>
+    <x xlink:href="package.3.2.1.xml"/>
 </r>

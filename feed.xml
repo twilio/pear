@@ -7,6 +7,18 @@
     </author>
 
     <entry>
+        <title>Services_Twilio 3.2.1 (stable)</title>
+        <link href="http://twilio.github.com/pear/get/Services_Twilio-3.2.1.tgz" />
+        <id>Services_Twilio-3.2.1</id>
+        <author>
+            <name>luciferous</name>
+        </author>
+        <updated>2011-07-30T00:09:59-07:00</updated>
+        <content>
+            A SDK (or helper library, as were calling them) for PHP developers to write
+applications against Twilios REST API and generate TwiML responses.
+        </content>
+    </entry>    <entry>
         <title>Services_Twilio 3.2.0 (stable)</title>
         <link href="http://twilio.github.com/pear/get/Services_Twilio-3.2.0.tgz" />
         <id>Services_Twilio-3.2.0</id>
@@ -15,8 +27,8 @@
         </author>
         <updated>2011-07-26T13:43:05-07:00</updated>
         <content>
-            A SDK (or helper library, as we're calling them) for PHP developers to write
-applications against Twilio's REST API and generate TwiML responses.
+            A SDK (or helper library, as were calling them) for PHP developers to write
+applications against Twilios REST API and generate TwiML responses.
         </content>
     </entry>    <entry>
         <title>Services_Twilio 3.0.1 (stable)</title>
@@ -27,8 +39,8 @@ applications against Twilio's REST API and generate TwiML responses.
         </author>
         <updated>2011-07-20T23:08:48-07:00</updated>
         <content>
-            A SDK (or helper library, as we're calling them) for PHP developers to write
-applications against Twilio's REST API and generate TwiML responses.
+            A SDK (or helper library, as were calling them) for PHP developers to write
+applications against Twilios REST API and generate TwiML responses.
         </content>
     </entry>    <entry>
         <title>Services_Twilio 3.0.0 (stable)</title>
@@ -39,8 +51,8 @@ applications against Twilio's REST API and generate TwiML responses.
         </author>
         <updated>2011-07-20T01:12:29-07:00</updated>
         <content>
-            A SDK (or helper library, as we're calling them) for PHP developers to write
-applications against Twilio's REST API and generate TwiML responses.
+            A SDK (or helper library, as were calling them) for PHP developers to write
+applications against Twilios REST API and generate TwiML responses.
         </content>
     </entry>    <entry>
         <title>Services_Twilio 0.0.3 (beta)</title>
@@ -51,8 +63,8 @@ applications against Twilio's REST API and generate TwiML responses.
         </author>
         <updated>2011-07-19T00:01:50-07:00</updated>
         <content>
-            A SDK (or helper library, as we're calling them) for PHP developers to write
-applications against Twilio's REST API and generate TwiML responses.
+            A SDK (or helper library, as were calling them) for PHP developers to write
+applications against Twilios REST API and generate TwiML responses.
         </content>
     </entry>
 </feed>

@@ -5,7 +5,7 @@
 <ca xlink:href="/rest/c/Default">Default</ca>
 <l>MIT License</l>
 <s>PHP helper library for Twilio</s>
-<d>A SDK (or helper library, as we're calling them) for PHP developers to write
-applications against Twilio's REST API and generate TwiML responses.</d>
+<d>A SDK (or helper library, as were calling them) for PHP developers to write
+applications against Twilios REST API and generate TwiML responses.</d>
 <r xlink:href="/rest/r/services_twilio" />
 </p>

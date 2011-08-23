@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Services_Twilio</name>
+ <channel>twilio.github.com/pear</channel>
+ <summary>PHP helper library for Twilio</summary>
+ <description>A SDK (or helper library, as were calling them) for PHP developers to write
+applications against Twilios REST API and generate TwiML responses.</description>
+ <lead>
+  <name>Neuman Vong</name>
+  <user>luciferous</user>
+  <email>neuman+pear@twilio.com</email>
+  <active>yes</active>
+ </lead>
+ <lead>
+  <name>Kyle Conroy</name>
+  <user>derferman</user>
+  <email>kyle+pear@twilio.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2011-08-23</date>
+ <time>18:06:18</time>
+ <version>
+  <release>3.2.3</release>
+  <api>3.2.3</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://creativecommons.org/licenses/MIT/">MIT License</license>
+ <notes>
+No release notes.
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="78af3f5a3a5cd7437dec3a56e0da51d7" name="Services/Twilio/Rest/Account.php" role="php" />
+   <file baseinstalldir="/" md5sum="cf980bdc41d9d4f613aa15e8977ae37c" name="Services/Twilio/Rest/Accounts.php" role="php" />
+   <file baseinstalldir="/" md5sum="ded36749ae69297a78652543db7a4a3d" name="Services/Twilio/Rest/Application.php" role="php" />
+   <file baseinstalldir="/" md5sum="a2653aef9ebedfb85534d1bd87ce8c14" name="Services/Twilio/Rest/Applications.php" role="php" />
+   <file baseinstalldir="/" md5sum="f3a1cda40b0ae0533034c9583de18b62" name="Services/Twilio/Rest/AvailablePhoneNumber.php" role="php" />
+   <file baseinstalldir="/" md5sum="fc228f3422a057f9aea6308c0e2e9db5" name="Services/Twilio/Rest/AvailablePhoneNumbers.php" role="php" />
+   <file baseinstalldir="/" md5sum="2c9d01c16c95bf38e81a4008adf1c25d" name="Services/Twilio/Rest/Call.php" role="php" />
+   <file baseinstalldir="/" md5sum="147bc7f073cab4d3acaa43d77b26dc0b" name="Services/Twilio/Rest/Calls.php" role="php" />
+   <file baseinstalldir="/" md5sum="225546b52a7054956eae0886704faaf7" name="Services/Twilio/Rest/Conference.php" role="php" />
+   <file baseinstalldir="/" md5sum="16d9ab4511188e15c307c3312d2bc0dc" name="Services/Twilio/Rest/Conferences.php" role="php" />
+   <file baseinstalldir="/" md5sum="89b21721ceb23c88b2e787d12ccd1121" name="Services/Twilio/Rest/IncomingPhoneNumber.php" role="php" />
+   <file baseinstalldir="/" md5sum="95fea9f8e99defe83264ac78114d6427" name="Services/Twilio/Rest/IncomingPhoneNumbers.php" role="php" />
+   <file baseinstalldir="/" md5sum="f0b0cf2e7c0bfa069085b2d6aaf10823" name="Services/Twilio/Rest/Notification.php" role="php" />
+   <file baseinstalldir="/" md5sum="8a8f87a691a6a5c5aa372a60fe76407f" name="Services/Twilio/Rest/Notifications.php" role="php" />
+   <file baseinstalldir="/" md5sum="ec1875490e5f92fd59be1375d2603288" name="Services/Twilio/Rest/OutgoingCallerId.php" role="php" />
+   <file baseinstalldir="/" md5sum="cda1511452891896481cbd0b82dc8a40" name="Services/Twilio/Rest/OutgoingCallerIds.php" role="php" />
+   <file baseinstalldir="/" md5sum="c8408286a0c2414e9e37655c59c24b56" name="Services/Twilio/Rest/Participant.php" role="php" />
+   <file baseinstalldir="/" md5sum="72390118117eb7001c5996e03d5973e7" name="Services/Twilio/Rest/Participants.php" role="php" />
+   <file baseinstalldir="/" md5sum="c2c3e6fdadd7e06b037a03a25d6129aa" name="Services/Twilio/Rest/Recording.php" role="php" />
+   <file baseinstalldir="/" md5sum="c4d82a27bf6ecb03fe75fa1a33a37db2" name="Services/Twilio/Rest/Recordings.php" role="php" />
+   <file baseinstalldir="/" md5sum="c6c853b8f0267076da88eca3696c284b" name="Services/Twilio/Rest/Sandbox.php" role="php" />
+   <file baseinstalldir="/" md5sum="7aae8acf2de02ac695eb75a5882d40da" name="Services/Twilio/Rest/ShortCode.php" role="php" />
+   <file baseinstalldir="/" md5sum="2e5146fe1e91ebf0725f1d6092156779" name="Services/Twilio/Rest/ShortCodes.php" role="php" />
+   <file baseinstalldir="/" md5sum="dd8c5c28b76e15715cb0adcafd537531" name="Services/Twilio/Rest/SmsMessage.php" role="php" />
+   <file baseinstalldir="/" md5sum="cc9cf85f816aa6d389489ddcdbe052c4" name="Services/Twilio/Rest/SmsMessages.php" role="php" />
+   <file baseinstalldir="/" md5sum="c7da12000273c22dad5ee80bfb29e43a" name="Services/Twilio/Rest/Transcription.php" role="php" />
+   <file baseinstalldir="/" md5sum="d0d8d443a9fa380adc04f71225907e92" name="Services/Twilio/Rest/Transcriptions.php" role="php" />
+   <file baseinstalldir="/" md5sum="b90f24b41268061e3021ce48af2136ff" name="Services/Twilio/ArrayDataProxy.php" role="php" />
+   <file baseinstalldir="/" md5sum="1bfa2ddbd73674d48fdbf1393c2816ce" name="Services/Twilio/AutoPagingIterator.php" role="php" />
+   <file baseinstalldir="/" md5sum="607ef841d411e09e0a1827bd7ed6c818" name="Services/Twilio/CachingDataProxy.php" role="php" />
+   <file baseinstalldir="/" md5sum="241b553ebc6760eb7501ccb87d720cfd" name="Services/Twilio/Capability.php" role="php" />
+   <file baseinstalldir="/" md5sum="54b839b370d25c3a5467b00ed9409571" name="Services/Twilio/DataProxy.php" role="php" />
+   <file baseinstalldir="/" md5sum="43c47c59445af65fe64bda34410e3287" name="Services/Twilio/InstanceResource.php" role="php" />
+   <file baseinstalldir="/" md5sum="ff01884aa3bd15116d2ca7308667389f" name="Services/Twilio/ListResource.php" role="php" />
+   <file baseinstalldir="/" md5sum="d03a45014e6e2f08b579750e3462391a" name="Services/Twilio/Page.php" role="php" />
+   <file baseinstalldir="/" md5sum="d607dc7812d1c20f1112b5d039ef0eff" name="Services/Twilio/PartialApplicationHelper.php" role="php" />
+   <file baseinstalldir="/" md5sum="e2669a5fdbb12cf2cd63d3c53fd41cd5" name="Services/Twilio/RequestValidator.php" role="php" />
+   <file baseinstalldir="/" md5sum="4cef3aaeebee80c577590168847804fd" name="Services/Twilio/Resource.php" role="php" />
+   <file baseinstalldir="/" md5sum="dc6eecde955fe7b17a4b8ce3d378712a" name="Services/Twilio/RestException.php" role="php" />
+   <file baseinstalldir="/" md5sum="f0b086daf73a221d24bd126ac9a20c73" name="Services/Twilio/TinyHttp.php" role="php" />
+   <file baseinstalldir="/" md5sum="84997666131678dd2032edae7f07d7be" name="Services/Twilio/Twiml.php" role="php" />
+   <file baseinstalldir="/" md5sum="39498fe228f067d60c31b1d2f7774952" name="Services/Twilio.php" role="php" />
+   <file baseinstalldir="/" md5sum="035314d26a1c08d893341d53a55c46f9" name="tests/Bootstrap.php" role="test" />
+   <file baseinstalldir="/" md5sum="7303c57e659d74d1c724a5c547068736" name="tests/CapabilityTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="098a225d3a33745e3ee9321d6a38bda9" name="tests/phpunit.xml" role="test" />
+   <file baseinstalldir="/" md5sum="9b3cbe48d4d495ae5a5b69c6d2ccd5bc" name="tests/RequestValidatorTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="c9f10473a6457fa21f6fd0fd0a1a4c7d" name="tests/ResourcesTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="b609ec14b1e9feae08d14fd9cbdf3f4e" name="tests/TwilioTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="b60968b41a25c2abf517e23edc046dc9" name="tests/TwimlTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="61b47a5a53a280be22fc1ceb712d19a0" name="AUTHORS" role="data" />
+   <file baseinstalldir="/" md5sum="f04e9e68c3303555cb9bdbd98bc05113" name="LICENSE" role="data" />
+   <file baseinstalldir="/" md5sum="240360943cefbacfb2703f7f5f21d326" name="Makefile" role="data" />
+   <file baseinstalldir="/" md5sum="19d34784649406b01468d1eb67b9015a" name="README.md" role="data" />
+   <file baseinstalldir="/" md5sum="59446423f75405ec8d3187a6a88f230e" name="test.php" role="php" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.2.1</min>
+   </php>
+   <pearinstaller>
+    <min>1.9.3</min>
+   </pearinstaller>
+  </required>
+  <optional>
+   <package>
+    <name>Mockery</name>
+    <channel>pear.survivethedeepend.com</channel>
+   </package>
+  </optional>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>3.2.2</release>
+    <api>3.2.2</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2011-08-04</date>
+   <license uri="http://creativecommons.org/licenses/MIT/">MIT License</license>
+   <notes>
+No release notes.
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>3.2.3</release>
+    <api>3.2.3</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2011-08-23</date>
+   <license uri="http://creativecommons.org/licenses/MIT/">MIT License</license>
+   <notes>
+No release notes.
+   </notes>
+  </release>
+ </changelog>
+</package>

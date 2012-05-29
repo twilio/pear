@@ -1,94 +1,116 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:base="http://twilio.github.com/pear">
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://twilio.github.com/pear</id>
+    <updated>2012-05-29T10:48:44-07:00</updated>
     <title>twilio's PEAR Channel Server Latest Releases</title>
-    <link href="http://twilio.github.com/pear" />
+    <link href="http://twilio.github.com/pear/feed.xml" rel="self" />
     <author>
         <name>http://twilio.github.com/pear</name>
     </author>
 
     <entry>
+        <title>Services_Twilio 3.3.2 (stable)</title>
+        <link href="http://twilio.github.com/pear/get/Services_Twilio-3.3.2.tgz" />
+        <id>http://twilio.github.com/pear/get/Services_Twilio-3.3.2.tgz</id>
+        <author>
+            <name>luciferous</name>
+        </author>
+        <updated>2012-05-29T17:47:28-07:00</updated>
+        <content>
+            
+Short fix to convert boolean true and false to the strings &quot;true&quot; and &quot;false&quot; in the TwiML generator.
+ 
+        </content>
+    </entry>    <entry>
         <title>Services_Twilio 3.2.3 (stable)</title>
         <link href="http://twilio.github.com/pear/get/Services_Twilio-3.2.3.tgz" />
-        <id>Services_Twilio-3.2.3</id>
+        <id>http://twilio.github.com/pear/get/Services_Twilio-3.2.3.tgz</id>
         <author>
             <name>luciferous</name>
         </author>
         <updated>2011-08-23T18:06:18-07:00</updated>
         <content>
-            A SDK (or helper library, as were calling them) for PHP developers to write
-applications against Twilios REST API and generate TwiML responses.
+            
+No release notes.
+ 
         </content>
     </entry>    <entry>
         <title>Services_Twilio 3.2.2 (stable)</title>
         <link href="http://twilio.github.com/pear/get/Services_Twilio-3.2.2.tgz" />
-        <id>Services_Twilio-3.2.2</id>
+        <id>http://twilio.github.com/pear/get/Services_Twilio-3.2.2.tgz</id>
         <author>
             <name>luciferous</name>
         </author>
         <updated>2011-08-04T23:32:40-07:00</updated>
         <content>
-            A SDK (or helper library, as were calling them) for PHP developers to write
-applications against Twilios REST API and generate TwiML responses.
+            
+No release notes.
+ 
         </content>
     </entry>    <entry>
         <title>Services_Twilio 3.2.1 (stable)</title>
         <link href="http://twilio.github.com/pear/get/Services_Twilio-3.2.1.tgz" />
-        <id>Services_Twilio-3.2.1</id>
+        <id>http://twilio.github.com/pear/get/Services_Twilio-3.2.1.tgz</id>
         <author>
             <name>luciferous</name>
         </author>
         <updated>2011-07-30T00:09:59-07:00</updated>
         <content>
-            A SDK (or helper library, as were calling them) for PHP developers to write
-applications against Twilios REST API and generate TwiML responses.
+            
+No release notes.
+ 
         </content>
     </entry>    <entry>
         <title>Services_Twilio 3.2.0 (stable)</title>
         <link href="http://twilio.github.com/pear/get/Services_Twilio-3.2.0.tgz" />
-        <id>Services_Twilio-3.2.0</id>
+        <id>http://twilio.github.com/pear/get/Services_Twilio-3.2.0.tgz</id>
         <author>
             <name>luciferous</name>
         </author>
         <updated>2011-07-26T13:43:05-07:00</updated>
         <content>
-            A SDK (or helper library, as were calling them) for PHP developers to write
-applications against Twilios REST API and generate TwiML responses.
+            
+No release notes.
+ 
         </content>
     </entry>    <entry>
         <title>Services_Twilio 3.0.1 (stable)</title>
         <link href="http://twilio.github.com/pear/get/Services_Twilio-3.0.1.tgz" />
-        <id>Services_Twilio-3.0.1</id>
+        <id>http://twilio.github.com/pear/get/Services_Twilio-3.0.1.tgz</id>
         <author>
             <name>luciferous</name>
         </author>
         <updated>2011-07-20T23:08:48-07:00</updated>
         <content>
-            A SDK (or helper library, as were calling them) for PHP developers to write
-applications against Twilios REST API and generate TwiML responses.
+            
+No release notes.
+ 
         </content>
     </entry>    <entry>
         <title>Services_Twilio 3.0.0 (stable)</title>
         <link href="http://twilio.github.com/pear/get/Services_Twilio-3.0.0.tgz" />
-        <id>Services_Twilio-3.0.0</id>
+        <id>http://twilio.github.com/pear/get/Services_Twilio-3.0.0.tgz</id>
         <author>
             <name>luciferous</name>
         </author>
         <updated>2011-07-20T01:12:29-07:00</updated>
         <content>
-            A SDK (or helper library, as were calling them) for PHP developers to write
-applications against Twilios REST API and generate TwiML responses.
+            
+No release notes.
+ 
         </content>
     </entry>    <entry>
         <title>Services_Twilio 0.0.3 (beta)</title>
         <link href="http://twilio.github.com/pear/get/Services_Twilio-0.0.3.tgz" />
-        <id>Services_Twilio-0.0.3</id>
+        <id>http://twilio.github.com/pear/get/Services_Twilio-0.0.3.tgz</id>
         <author>
             <name>luciferous</name>
         </author>
         <updated>2011-07-19T00:01:50-07:00</updated>
         <content>
-            A SDK (or helper library, as were calling them) for PHP developers to write
-applications against Twilios REST API and generate TwiML responses.
+            
+No release notes.
+ 
         </content>
     </entry>
 </feed>

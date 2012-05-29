@@ -7,12 +7,16 @@
             <ca xlink:href="/rest/c/Default">Default</ca>
             <l>MIT License</l>
             <s>PHP helper library for Twilio</s>
-            <d>A SDK (or helper library, as were calling them) for PHP developers to write
-applications against Twilios REST API and generate TwiML responses.</d>
+            <d>A SDK (or helper library, as we're calling them) for PHP developers to write
+applications against Twilio's REST API and generate TwiML responses.</d>
             <r xlink:href="/rest/r/services_twilio" />
         </p>
 
         <a>
+            <r>
+                <v>3.3.2</v>
+                <s>stable</s>
+            </r>
             <r>
                 <v>3.2.3</v>
                 <s>stable</s>
@@ -44,6 +48,10 @@ applications against Twilios REST API and generate TwiML responses.</d>
 
         </a>
 
+        <deps>
+            <v>3.3.2</v>
+            <d>a:2:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"5.2.1";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.9.3";}}s:8:"optional";a:1:{s:7:"package";a:2:{s:4:"name";s:7:"Mockery";s:7:"channel";s:26:"pear.survivethedeepend.com";}}}</d>
+        </deps>
         <deps>
             <v>3.2.3</v>
             <d>a:2:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"5.2.1";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.9.3";}}s:8:"optional";a:1:{s:7:"package";a:2:{s:4:"name";s:7:"Mockery";s:7:"channel";s:26:"pear.survivethedeepend.com";}}}</d>

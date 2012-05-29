@@ -7,8 +7,8 @@
     <l>MIT License</l>
     <m>luciferous</m>
     <s>PHP helper library for Twilio</s>
-    <d>A SDK (or helper library, as were calling them) for PHP developers to write
-applications against Twilios REST API and generate TwiML responses.</d>
+    <d>A SDK (or helper library, as we're calling them) for PHP developers to write
+applications against Twilio's REST API and generate TwiML responses.</d>
     <da>2011-07-26 13:43:05</da>
     <n>
 No release notes.

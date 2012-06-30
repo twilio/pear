@@ -4,6 +4,7 @@ VERSION="$1";
 GZIPPED_REPO="Services_Twilio-$VERSION.tgz"
 
 pushd ../twilio-php;
+    pear channel-discover twilio.github.com/pear
     php package.php > package.xml;
     pear package;
     cp $GZIPPED_REPO ../pear;

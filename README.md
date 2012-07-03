@@ -2,8 +2,13 @@
 
 Twilio follows the versioning guidelines [here](http://apr.apache.org/versioning.html).
 
-When you are bumping the version number, here is a list of files you need to
-update in the twilio-php repo:
+When you are bumping the version number, here is a checklist to follow:
+
+* Run the unit tests and the Twilio integration tests to check for
+  incompatibilities.
+
+* Tag a new Github release with the version number, and also with the `latest`
+  tag.
 
 * Add a summary of the changes to the CHANGES file in the home directory.
 
@@ -17,7 +22,7 @@ update in the twilio-php repo:
 
 * Update the version number in package.php, add a short change note, and then
   run: 
-    
+
         php package.php > package.xml
 
         pear package

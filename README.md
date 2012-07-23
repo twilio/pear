@@ -17,12 +17,10 @@ When you are bumping the version number, here is a checklist to follow:
 
 * Update the version number in docs/index.rst
 
+* Update the version number in package.php, and add a short change note
+
 * Tag a new Github release with the version number, and also with the `latest`
   tag.
-
-
-* Update the version number in package.php, add a short change note, and then
-  run: 
 
         php package.php > package.xml
 

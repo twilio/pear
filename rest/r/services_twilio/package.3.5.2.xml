@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Services_Twilio</name>
+ <channel>twilio.github.com/pear</channel>
+ <summary>PHP helper library for Twilio</summary>
+ <description>A SDK (or helper library, as we&apos;re calling them) for PHP developers to write
+applications against Twilio&apos;s REST API and generate TwiML responses.</description>
+ <lead>
+  <name>Neuman Vong</name>
+  <user>luciferous</user>
+  <email>neuman+pear@twilio.com</email>
+  <active>yes</active>
+ </lead>
+ <lead>
+  <name>Kyle Conroy</name>
+  <user>derferman</user>
+  <email>kyle+pear@twilio.com</email>
+  <active>yes</active>
+ </lead>
+ <lead>
+  <name>Kevin Burke</name>
+  <user>kevinburke</user>
+  <email>kevin@twilio.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2012-07-23</date>
+ <time>21:51:37</time>
+ <version>
+  <release>3.5.2</release>
+  <api>3.5.2</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://creativecommons.org/licenses/MIT/">MIT License</license>
+ <notes>
+Hotfix for two errors introduced the 3.5.0 release
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="770d9c592b4300457ae025448c4c6816" name="coverage/close12_1.gif" role="data" />
+   <file baseinstalldir="/" md5sum="5511b676a4961a0dfb52e1f64ce65a7a" name="coverage/container-min.js" role="data" />
+   <file baseinstalldir="/" md5sum="495d2ec9631eb89063bdd9d70bd731dc" name="coverage/container.css" role="data" />
+   <file baseinstalldir="/" md5sum="0c2ea106ded3a3b443ad39e3eddcd7a6" name="coverage/directory.png" role="data" />
+   <file baseinstalldir="/" md5sum="6983bd4ac09f5135eb128cbdf0ceadfe" name="coverage/file.png" role="data" />
+   <file baseinstalldir="/" md5sum="d0bcded9081d6a0efda48c495867da73" name="coverage/glass.png" role="data" />
+   <file baseinstalldir="/" md5sum="08cdf43b4ba8ce789f86a30a09071ca8" name="coverage/highcharts.js" role="data" />
+   <file baseinstalldir="/" md5sum="79541eafa44738d1e246d2dc987a3375" name="coverage/index.dashboard.html" role="doc" />
+   <file baseinstalldir="/" md5sum="20a165c0cf024961a5633d869d3c9814" name="coverage/index.html" role="doc" />
+   <file baseinstalldir="/" md5sum="0efa3b9aa0f509043308e7c6e23538f8" name="coverage/jquery.min.js" role="data" />
+   <file baseinstalldir="/" md5sum="35124f1c7bdca3d7fec4378697fc0bf1" name="coverage/Services.dashboard.html" role="doc" />
+   <file baseinstalldir="/" md5sum="18b370a9709fb47d30544296380c8c27" name="coverage/Services.html" role="doc" />
+   <file baseinstalldir="/" md5sum="0202a88a591ae1b74112e487ada8b65e" name="coverage/Services_Twilio.dashboard.html" role="doc" />
+   <file baseinstalldir="/" md5sum="022486d423e4097a0912f48d73658483" name="coverage/Services_Twilio.html" role="doc" />
+   <file baseinstalldir="/" md5sum="6dbf4ed6a327cc705284b81400b9191b" name="coverage/Services_Twilio.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="fc18748e29617819a61a26e815e9316b" name="coverage/Services_Twilio_AutoPagingIterator.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="922426d42c99a9b79f09da83ef80f4b6" name="coverage/Services_Twilio_CachingDataProxy.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="883b2a32b3ab8981e063f4d2202cb286" name="coverage/Services_Twilio_Capability.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="bfef179328ed45482cf5f6f1ae869163" name="coverage/Services_Twilio_InstanceResource.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="920641ee41f372d71b23c5c95da4c4b2" name="coverage/Services_Twilio_ListResource.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="f1a1626af93f0fb4c67e9380934eed74" name="coverage/Services_Twilio_Page.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="968e5db581ab773f4a47090c9d62c7c0" name="coverage/Services_Twilio_PartialApplicationHelper.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="ee6b264ff1754357b3e4d1a58e0a2985" name="coverage/Services_Twilio_RequestValidator.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="107bd77f23066ac6fc0a3921064cbba7" name="coverage/Services_Twilio_Resource.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="49ce3eeed70ef2511d787508660ec1de" name="coverage/Services_Twilio_Rest.dashboard.html" role="doc" />
+   <file baseinstalldir="/" md5sum="845d647f07d690e26e3a9edfb9b65c39" name="coverage/Services_Twilio_Rest.html" role="doc" />
+   <file baseinstalldir="/" md5sum="f840340575459ff5f045c0e9aa8a5d61" name="coverage/Services_Twilio_RestException.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="991f9c4311c160a296e894c3bca0a41e" name="coverage/Services_Twilio_Rest_Account.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="c227f7bbda4daaee3754371473b0f526" name="coverage/Services_Twilio_Rest_Accounts.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="cd6f6e25e40c6bf683bde2ebcf8ea271" name="coverage/Services_Twilio_Rest_Application.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="b89a649313f8c6367bea614795665718" name="coverage/Services_Twilio_Rest_Applications.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="8d339f0c4d1c7afee02468da3b67338d" name="coverage/Services_Twilio_Rest_AuthorizedConnectApps.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="246ef67e6dcf61df221f894aecb0db54" name="coverage/Services_Twilio_Rest_AvailablePhoneNumber.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="9cf02a601c4d179db3aa02a3b8269714" name="coverage/Services_Twilio_Rest_AvailablePhoneNumbers.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="b5d437cfa032079cb301f0632f514b27" name="coverage/Services_Twilio_Rest_Call.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="5b1ba2d95fbaabf15295c52743b0c9b8" name="coverage/Services_Twilio_Rest_Calls.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="0a16abfb9277e95e4e9ff4ed90ff537e" name="coverage/Services_Twilio_Rest_Conference.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="3501dc17f49d71da87d7e572f4d9800a" name="coverage/Services_Twilio_Rest_Conferences.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="21d527cf96518c4dbe62cc1a73706836" name="coverage/Services_Twilio_Rest_ConnectApp.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="2547f5dff6d334dda65be1488a1c5ca0" name="coverage/Services_Twilio_Rest_ConnectApps.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="48acbded5d694e569fa77cb8c9f381aa" name="coverage/Services_Twilio_Rest_IncomingPhoneNumbers.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="d0d6b85ac18696de50ac853a39bc6eec" name="coverage/Services_Twilio_Rest_Notification.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="30d84d11f5fd4614707f2e34460eea32" name="coverage/Services_Twilio_Rest_Notifications.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="70edb09ce4975c0f8d2df1ad3e744492" name="coverage/Services_Twilio_Rest_OutgoingCallerId.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="9862d8589c364c06b47c841358c4390d" name="coverage/Services_Twilio_Rest_OutgoingCallerIds.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="2e0ab0ce2c6392a896884085e6f44764" name="coverage/Services_Twilio_Rest_Participant.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="2b8c1920d7602d25fb466d913d6318a3" name="coverage/Services_Twilio_Rest_Participants.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="e9e9d22f53a78b91d9edc56bfb63a067" name="coverage/Services_Twilio_Rest_Recordings.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="e7dbd9b4e76dcd7eb64d2cb065a31caf" name="coverage/Services_Twilio_Rest_Sandbox.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="e1cd51a99e72f0fb946112e2b9a4aa28" name="coverage/Services_Twilio_Rest_SmsMessage.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="1f10e39c8a32c45b39726417c0521b3b" name="coverage/Services_Twilio_Rest_SmsMessages.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="bf3d05ad63c58da3db0b17075b737f9e" name="coverage/Services_Twilio_Rest_Transcriptions.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="cd764989f2026dbb9fe7be693cf9b17c" name="coverage/Services_Twilio_TinyHttp.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="f7243c7fd881cfb1de1984f4557f6a2c" name="coverage/Services_Twilio_Twiml.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="6720298ca22a5214a2e9f8fdb279fbd3" name="coverage/style.css" role="data" />
+   <file baseinstalldir="/" md5sum="df172cfc3846322a8a301d2d1b732dd7" name="coverage/vendor.dashboard.html" role="doc" />
+   <file baseinstalldir="/" md5sum="b2c093e77805ed3e52915ee7ddd7028a" name="coverage/vendor.html" role="doc" />
+   <file baseinstalldir="/" md5sum="ee6c8cfab838a02ecc5f25e1b51cebc2" name="coverage/vendor_autoload.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="87708650d51edac6d1e7506c999bf7ee" name="coverage/vendor_composer.dashboard.html" role="doc" />
+   <file baseinstalldir="/" md5sum="52ab0accb40b7e95080838608bbe5687" name="coverage/vendor_composer.html" role="doc" />
+   <file baseinstalldir="/" md5sum="17a7ab35391491821ba918f27868850f" name="coverage/vendor_composer_ClassLoader.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="e59ebcb60a0b50af76456ddab5a0155f" name="coverage/vendor_mockery.dashboard.html" role="doc" />
+   <file baseinstalldir="/" md5sum="16a0920b745af9ac643798734c16fa44" name="coverage/vendor_mockery.html" role="doc" />
+   <file baseinstalldir="/" md5sum="aeb68e2298a9f04496c46c1f1a9e303a" name="coverage/vendor_mockery_mockery.dashboard.html" role="doc" />
+   <file baseinstalldir="/" md5sum="05ba7296767f5c1f377a8968aa2d0034" name="coverage/vendor_mockery_mockery.html" role="doc" />
+   <file baseinstalldir="/" md5sum="433de027b570136496b75baf309622d1" name="coverage/vendor_mockery_mockery_library.dashboard.html" role="doc" />
+   <file baseinstalldir="/" md5sum="6ce128fd75c74edff7975431e35af087" name="coverage/vendor_mockery_mockery_library.html" role="doc" />
+   <file baseinstalldir="/" md5sum="71aa69075ee842ec4edea3f9da84a1a0" name="coverage/vendor_mockery_mockery_library_Mockery.dashboard.html" role="doc" />
+   <file baseinstalldir="/" md5sum="9bc2aa109d5c02dfca6112f55f4b7b06" name="coverage/vendor_mockery_mockery_library_Mockery.html" role="doc" />
+   <file baseinstalldir="/" md5sum="5c9849a1f3433aa3f1e0d95a6a1b700c" name="coverage/vendor_mockery_mockery_library_Mockery.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="93ff0ac1d2b112f08398af13a2d1eeb0" name="coverage/vendor_mockery_mockery_library_Mockery_CompositeExpectation.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="707edd9cd840e44a5f2ffdb861d70ff7" name="coverage/vendor_mockery_mockery_library_Mockery_Configuration.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="479db076a8f3315382ca0bc350821266" name="coverage/vendor_mockery_mockery_library_Mockery_Container.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="3c04394f1ccd028580a00d53fc6403fc" name="coverage/vendor_mockery_mockery_library_Mockery_CountValidator.dashboard.html" role="doc" />
+   <file baseinstalldir="/" md5sum="97b148023fd261807233a366d2c40785" name="coverage/vendor_mockery_mockery_library_Mockery_CountValidator.html" role="doc" />
+   <file baseinstalldir="/" md5sum="cd840977c0642dce9cc3dbbec7fb3a59" name="coverage/vendor_mockery_mockery_library_Mockery_CountValidator_CountValidatorAbstract.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="bb9ed8e3a5977d310dcb1e2c40f0d696" name="coverage/vendor_mockery_mockery_library_Mockery_CountValidator_Exact.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="5e658e4eff91e90b17a31c57340867ab" name="coverage/vendor_mockery_mockery_library_Mockery_Expectation.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="0a80d5eab6a695463486a444924761e0" name="coverage/vendor_mockery_mockery_library_Mockery_ExpectationDirector.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="4e2bfd98b467074c267159f3a18e0980" name="coverage/vendor_mockery_mockery_library_Mockery_Generator.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="5d550e9d2c6eef0bfbffc6ce24ffbb83" name="coverage/vendor_mockery_mockery_library_Mockery_Loader.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="ceaa14f793afd30949b035ae3c22061e" name="coverage/vendor_mockery_mockery_library_Mockery_Matcher.dashboard.html" role="doc" />
+   <file baseinstalldir="/" md5sum="64ef5c228d35af6031909a5366c645d4" name="coverage/vendor_mockery_mockery_library_Mockery_Matcher.html" role="doc" />
+   <file baseinstalldir="/" md5sum="6507024fc8eefd126578d10727defea6" name="coverage/vendor_mockery_mockery_library_Mockery_Matcher_Any.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="7ccda59447a0ee9f3db8a6aa356defea" name="coverage/vendor_mockery_mockery_library_Mockery_Matcher_MatcherAbstract.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="5594e099e0830ccadda59601ed80807f" name="coverage/vendor_mockery_mockery_library_Mockery_MockInterface.php.html" role="doc" />
+   <file baseinstalldir="/" md5sum="366eac96e298168d2c923fcb556fa259" name="coverage/yahoo-dom-event.js" role="data" />
+   <file baseinstalldir="/" md5sum="e68f9f56c91fe8b0e9d1596936a4c7f4" name="Services/Twilio/Rest/Account.php" role="php" />
+   <file baseinstalldir="/" md5sum="cf980bdc41d9d4f613aa15e8977ae37c" name="Services/Twilio/Rest/Accounts.php" role="php" />
+   <file baseinstalldir="/" md5sum="ded36749ae69297a78652543db7a4a3d" name="Services/Twilio/Rest/Application.php" role="php" />
+   <file baseinstalldir="/" md5sum="a2653aef9ebedfb85534d1bd87ce8c14" name="Services/Twilio/Rest/Applications.php" role="php" />
+   <file baseinstalldir="/" md5sum="f52b8af05f5cc5ffec65dc13d7924d21" name="Services/Twilio/Rest/AuthorizedConnectApp.php" role="php" />
+   <file baseinstalldir="/" md5sum="b1dc77013bcf661e0262113a9e53a4c7" name="Services/Twilio/Rest/AuthorizedConnectApps.php" role="php" />
+   <file baseinstalldir="/" md5sum="f3a1cda40b0ae0533034c9583de18b62" name="Services/Twilio/Rest/AvailablePhoneNumber.php" role="php" />
+   <file baseinstalldir="/" md5sum="6d380e7d6fae1d83ec926066301d2770" name="Services/Twilio/Rest/AvailablePhoneNumbers.php" role="php" />
+   <file baseinstalldir="/" md5sum="a7ea713cfc95c0fbfcabb3244961b7e3" name="Services/Twilio/Rest/Call.php" role="php" />
+   <file baseinstalldir="/" md5sum="216535549440933ec1698ca31110999c" name="Services/Twilio/Rest/Calls.php" role="php" />
+   <file baseinstalldir="/" md5sum="a2d26ece3d3417e4f0315b2df4772e97" name="Services/Twilio/Rest/Conference.php" role="php" />
+   <file baseinstalldir="/" md5sum="16d9ab4511188e15c307c3312d2bc0dc" name="Services/Twilio/Rest/Conferences.php" role="php" />
+   <file baseinstalldir="/" md5sum="b0a35e83960c9a2018b82701d8fb8ed7" name="Services/Twilio/Rest/ConnectApp.php" role="php" />
+   <file baseinstalldir="/" md5sum="832aaa23a69ccac9ce920f668e3ac5b8" name="Services/Twilio/Rest/ConnectApps.php" role="php" />
+   <file baseinstalldir="/" md5sum="89b21721ceb23c88b2e787d12ccd1121" name="Services/Twilio/Rest/IncomingPhoneNumber.php" role="php" />
+   <file baseinstalldir="/" md5sum="95fea9f8e99defe83264ac78114d6427" name="Services/Twilio/Rest/IncomingPhoneNumbers.php" role="php" />
+   <file baseinstalldir="/" md5sum="f0b0cf2e7c0bfa069085b2d6aaf10823" name="Services/Twilio/Rest/Notification.php" role="php" />
+   <file baseinstalldir="/" md5sum="8a8f87a691a6a5c5aa372a60fe76407f" name="Services/Twilio/Rest/Notifications.php" role="php" />
+   <file baseinstalldir="/" md5sum="ec1875490e5f92fd59be1375d2603288" name="Services/Twilio/Rest/OutgoingCallerId.php" role="php" />
+   <file baseinstalldir="/" md5sum="cda1511452891896481cbd0b82dc8a40" name="Services/Twilio/Rest/OutgoingCallerIds.php" role="php" />
+   <file baseinstalldir="/" md5sum="c8408286a0c2414e9e37655c59c24b56" name="Services/Twilio/Rest/Participant.php" role="php" />
+   <file baseinstalldir="/" md5sum="86395e7668d99910fa219ca66fcf911f" name="Services/Twilio/Rest/Participants.php" role="php" />
+   <file baseinstalldir="/" md5sum="c2c3e6fdadd7e06b037a03a25d6129aa" name="Services/Twilio/Rest/Recording.php" role="php" />
+   <file baseinstalldir="/" md5sum="c4d82a27bf6ecb03fe75fa1a33a37db2" name="Services/Twilio/Rest/Recordings.php" role="php" />
+   <file baseinstalldir="/" md5sum="c6c853b8f0267076da88eca3696c284b" name="Services/Twilio/Rest/Sandbox.php" role="php" />
+   <file baseinstalldir="/" md5sum="7aae8acf2de02ac695eb75a5882d40da" name="Services/Twilio/Rest/ShortCode.php" role="php" />
+   <file baseinstalldir="/" md5sum="2e5146fe1e91ebf0725f1d6092156779" name="Services/Twilio/Rest/ShortCodes.php" role="php" />
+   <file baseinstalldir="/" md5sum="dd8c5c28b76e15715cb0adcafd537531" name="Services/Twilio/Rest/SmsMessage.php" role="php" />
+   <file baseinstalldir="/" md5sum="f205750ab1e11b5c73fb939edb6e4a41" name="Services/Twilio/Rest/SmsMessages.php" role="php" />
+   <file baseinstalldir="/" md5sum="c7da12000273c22dad5ee80bfb29e43a" name="Services/Twilio/Rest/Transcription.php" role="php" />
+   <file baseinstalldir="/" md5sum="d0d8d443a9fa380adc04f71225907e92" name="Services/Twilio/Rest/Transcriptions.php" role="php" />
+   <file baseinstalldir="/" md5sum="9056a9d104943f81bf960e6b37aa4779" name="Services/Twilio/AutoPagingIterator.php" role="php" />
+   <file baseinstalldir="/" md5sum="241b553ebc6760eb7501ccb87d720cfd" name="Services/Twilio/Capability.php" role="php" />
+   <file baseinstalldir="/" md5sum="f1b2711d3b757fb817f0e1767c9d5e2b" name="Services/Twilio/InstanceResource.php" role="php" />
+   <file baseinstalldir="/" md5sum="c0019cc684286e86dd2b23f46b441e14" name="Services/Twilio/ListResource.php" role="php" />
+   <file baseinstalldir="/" md5sum="e356cb65aa5aec4808a4a622ecd1e277" name="Services/Twilio/Page.php" role="php" />
+   <file baseinstalldir="/" md5sum="d607dc7812d1c20f1112b5d039ef0eff" name="Services/Twilio/PartialApplicationHelper.php" role="php" />
+   <file baseinstalldir="/" md5sum="e2669a5fdbb12cf2cd63d3c53fd41cd5" name="Services/Twilio/RequestValidator.php" role="php" />
+   <file baseinstalldir="/" md5sum="b88e47a6a752abcbc4336501417295e8" name="Services/Twilio/Resource.php" role="php" />
+   <file baseinstalldir="/" md5sum="dc6eecde955fe7b17a4b8ce3d378712a" name="Services/Twilio/RestException.php" role="php" />
+   <file baseinstalldir="/" md5sum="f0b086daf73a221d24bd126ac9a20c73" name="Services/Twilio/TinyHttp.php" role="php" />
+   <file baseinstalldir="/" md5sum="c38bfe8f3573fc8b44d376d5906e63b0" name="Services/Twilio/Twiml.php" role="php" />
+   <file baseinstalldir="/" md5sum="68864205a34ca822de151ac75665dfdc" name="Services/Twilio.php" role="php" />
+   <file baseinstalldir="/" md5sum="54b6604a82d90ebdb9a8a3c544bb77f1" name="Services/twilio_ssl_certificate.crt" role="php" />
+   <file baseinstalldir="/" md5sum="91357ebd5952551f85c9a7d736cbca81" name="tests/Bootstrap.php" role="test" />
+   <file baseinstalldir="/" md5sum="5558a4df426698d66950c508416130b6" name="tests/CapabilityTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="098a225d3a33745e3ee9321d6a38bda9" name="tests/phpunit.xml" role="test" />
+   <file baseinstalldir="/" md5sum="594e47127a06797d2c03d3aa267aaba5" name="tests/README" role="test" />
+   <file baseinstalldir="/" md5sum="9b3cbe48d4d495ae5a5b69c6d2ccd5bc" name="tests/RequestValidatorTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="5fa6ec7d5a3e3ee985d99f63121329df" name="tests/ResourcesTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="fa7411d58c844b30bc09c91f61dfb25d" name="tests/TwilioTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="28694240c9e14359b82b01b9df78b2b8" name="tests/TwimlTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="5201607a6898f87b66dbfd2ac7d81743" name="vendor/composer/autoload_classmap.php" role="php" />
+   <file baseinstalldir="/" md5sum="3c29e205ac8a874f24a952e5ad9722cc" name="vendor/composer/autoload_namespaces.php" role="php" />
+   <file baseinstalldir="/" md5sum="6e3c0e35e2db3f39291cf71633bf872f" name="vendor/composer/ClassLoader.php" role="php" />
+   <file baseinstalldir="/" md5sum="9254c97b9193a6eeec148c4b185c7eed" name="vendor/composer/installed_dev.json" role="data" />
+   <file baseinstalldir="/" md5sum="89e778ea4c9a32bc1da77432a1374ec8" name="vendor/mockery/mockery/examples/starship/Bootstrap.php" role="php" />
+   <file baseinstalldir="/" md5sum="27f9d8f9042b88bbf81f6664bda82bb7" name="vendor/mockery/mockery/examples/starship/phpunit.xml" role="data" />
+   <file baseinstalldir="/" md5sum="c0ed72f9c8c4780b65f5c24aedccbfd8" name="vendor/mockery/mockery/examples/starship/Starship.php" role="php" />
+   <file baseinstalldir="/" md5sum="d76463c864c222ab3c49a72555f098c3" name="vendor/mockery/mockery/examples/starship/StarshipTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="ca23b985c06125b33aec5a25b76e0083" name="vendor/mockery/mockery/library/Mockery/Adapter/Phpunit/TestListener.php" role="php" />
+   <file baseinstalldir="/" md5sum="6ba50ec693e63133c12220fad1c9cf1e" name="vendor/mockery/mockery/library/Mockery/CountValidator/AtLeast.php" role="php" />
+   <file baseinstalldir="/" md5sum="f6dfa98ad4cf1ca53ae794d629016061" name="vendor/mockery/mockery/library/Mockery/CountValidator/AtMost.php" role="php" />
+   <file baseinstalldir="/" md5sum="a86fe53cbe5a040bdcff1de1a8516f3d" name="vendor/mockery/mockery/library/Mockery/CountValidator/CountValidatorAbstract.php" role="php" />
+   <file baseinstalldir="/" md5sum="549cd8b9f6df3edd60ff1923b4641af2" name="vendor/mockery/mockery/library/Mockery/CountValidator/Exact.php" role="php" />
+   <file baseinstalldir="/" md5sum="e04076cc303e0851a8751086c27af98b" name="vendor/mockery/mockery/library/Mockery/CountValidator/Exception.php" role="php" />
+   <file baseinstalldir="/" md5sum="5d6b11037b418a860059cca89eabcff3" name="vendor/mockery/mockery/library/Mockery/Matcher/Any.php" role="php" />
+   <file baseinstalldir="/" md5sum="b5bc4c67505169e0dea72fb54d2da26d" name="vendor/mockery/mockery/library/Mockery/Matcher/AnyOf.php" role="php" />
+   <file baseinstalldir="/" md5sum="34e99908bb51433dd12a266d7ce5a787" name="vendor/mockery/mockery/library/Mockery/Matcher/Closure.php" role="php" />
+   <file baseinstalldir="/" md5sum="04f14d92178b1b425384d9a03446d16d" name="vendor/mockery/mockery/library/Mockery/Matcher/Contains.php" role="php" />
+   <file baseinstalldir="/" md5sum="fd8a46c0631b9afffdc460063b3207e6" name="vendor/mockery/mockery/library/Mockery/Matcher/Ducktype.php" role="php" />
+   <file baseinstalldir="/" md5sum="959858e2b34c3d533782e988c1f2ab29" name="vendor/mockery/mockery/library/Mockery/Matcher/HasKey.php" role="php" />
+   <file baseinstalldir="/" md5sum="189517a6f0795a51ea1e138d3eb1e99b" name="vendor/mockery/mockery/library/Mockery/Matcher/HasValue.php" role="php" />
+   <file baseinstalldir="/" md5sum="c8898ea4b3fa3b0fa61e46c14c1e6b06" name="vendor/mockery/mockery/library/Mockery/Matcher/MatcherAbstract.php" role="php" />
+   <file baseinstalldir="/" md5sum="3556e55c150777ad9d8bacf24d2e12c5" name="vendor/mockery/mockery/library/Mockery/Matcher/MustBe.php" role="php" />
+   <file baseinstalldir="/" md5sum="a5154e274a7f1116148f81e05aead354" name="vendor/mockery/mockery/library/Mockery/Matcher/Not.php" role="php" />
+   <file baseinstalldir="/" md5sum="ef4c1c0602204d0e7db626634e77da73" name="vendor/mockery/mockery/library/Mockery/Matcher/NotAnyOf.php" role="php" />
+   <file baseinstalldir="/" md5sum="6fb0ee29edb081b747e33bae3b1bfa85" name="vendor/mockery/mockery/library/Mockery/Matcher/Subset.php" role="php" />
+   <file baseinstalldir="/" md5sum="d762a47e132d7be71c97759d5df72fa1" name="vendor/mockery/mockery/library/Mockery/Matcher/Type.php" role="php" />
+   <file baseinstalldir="/" md5sum="a2d755564b7401320c6a1f91f08403e2" name="vendor/mockery/mockery/library/Mockery/CompositeExpectation.php" role="php" />
+   <file baseinstalldir="/" md5sum="cc7cefae37c5ffe0d706030b9df294ea" name="vendor/mockery/mockery/library/Mockery/Configuration.php" role="php" />
+   <file baseinstalldir="/" md5sum="5860b0d5ad3924b1e0284cfbec5d1312" name="vendor/mockery/mockery/library/Mockery/Container.php" role="php" />
+   <file baseinstalldir="/" md5sum="b21dbc410fef475ee809570691efe87c" name="vendor/mockery/mockery/library/Mockery/Exception.php" role="php" />
+   <file baseinstalldir="/" md5sum="7ca481f8d98e0f5bc108f77d7b6a8e9d" name="vendor/mockery/mockery/library/Mockery/Expectation.php" role="php" />
+   <file baseinstalldir="/" md5sum="3d44d7a92ff8b1ea89b254d3cbd93222" name="vendor/mockery/mockery/library/Mockery/ExpectationDirector.php" role="php" />
+   <file baseinstalldir="/" md5sum="8361d7534607806cd55e8efaf9720f74" name="vendor/mockery/mockery/library/Mockery/Generator.php" role="php" />
+   <file baseinstalldir="/" md5sum="6e0dab7162b86ea8db0cde11d276e696" name="vendor/mockery/mockery/library/Mockery/Loader.php" role="php" />
+   <file baseinstalldir="/" md5sum="a38ccf7a3aecdc962aabef5d5577ad75" name="vendor/mockery/mockery/library/Mockery/Mock.php" role="php" />
+   <file baseinstalldir="/" md5sum="b482dbd5b96a431dce134c5e0cd21a10" name="vendor/mockery/mockery/library/Mockery/MockInterface.php" role="php" />
+   <file baseinstalldir="/" md5sum="997a00f22790c9a44ab068878eec8cc8" name="vendor/mockery/mockery/library/Mockery/Recorder.php" role="php" />
+   <file baseinstalldir="/" md5sum="3ba1aab4bbdf3c5f134144a865b3866f" name="vendor/mockery/mockery/library/Mockery/Undefined.php" role="php" />
+   <file baseinstalldir="/" md5sum="5cbb7256dddde248c131ed2268f14e6b" name="vendor/mockery/mockery/library/Mockery.php" role="php" />
+   <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="vendor/mockery/mockery/tests/Mockery/_files/file.txt" role="data" />
+   <file baseinstalldir="/" md5sum="6cea91967055c557ee45ad6c7e73d165" name="vendor/mockery/mockery/tests/Mockery/AdhocTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="4d4ec7c4333e92b5091afcf1acf34b4a" name="vendor/mockery/mockery/tests/Mockery/ContainerTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="e3ce66a1b170001bba990ea28383b859" name="vendor/mockery/mockery/tests/Mockery/ExpectationTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="a6ac7392afe7ee97ac6b99ac7455ab0a" name="vendor/mockery/mockery/tests/Mockery/HamcrestExpectationTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="82c822206a99fe165ed9080ebcfd6bd9" name="vendor/mockery/mockery/tests/Mockery/LoaderTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="b0f2dae943cf005689ac2cdeafd2b860" name="vendor/mockery/mockery/tests/Mockery/RecorderTest.php" role="php" />
+   <file baseinstalldir="/" md5sum="873a8c48d933fbbaf7839273fb95130a" name="vendor/mockery/mockery/tests/Bootstrap.php" role="php" />
+   <file baseinstalldir="/" md5sum="a8e79b262e6c0c2d995215b2e05e58f1" name="vendor/mockery/mockery/tests/phpunit.xml" role="data" />
+   <file baseinstalldir="/" md5sum="0d4198482c3e76f03deb32b948155196" name="vendor/mockery/mockery/composer.json" role="data" />
+   <file baseinstalldir="/" md5sum="a25a301267d34036e67932527274c262" name="vendor/mockery/mockery/LICENSE" role="data" />
+   <file baseinstalldir="/" md5sum="93fa84e2aff32142a7a1c62468f88a10" name="vendor/mockery/mockery/README.markdown" role="data" />
+   <file baseinstalldir="/" md5sum="a9634532148349cd2dca30d73b90cdcd" name="vendor/autoload.php" role="php" />
+   <file baseinstalldir="/" md5sum="8cacd6c0939cd53ee76512c788d1ee8f" name="AUTHORS" role="data" />
+   <file baseinstalldir="/" md5sum="bc8c614b737fa21ce71f895904778038" name="CHANGES.md" role="data" />
+   <file baseinstalldir="/" md5sum="de1f92552e6386256330fdec4306951d" name="composer.json" role="data" />
+   <file baseinstalldir="/" md5sum="e30fd51204f4821c8771575111943acb" name="composer.lock" role="data" />
+   <file baseinstalldir="/" md5sum="6cc0ae539b7c69828cdc6f793a2b04ff" name="composer.phar" role="data" />
+   <file baseinstalldir="/" md5sum="f04e9e68c3303555cb9bdbd98bc05113" name="LICENSE" role="data" />
+   <file baseinstalldir="/" md5sum="083c2ec9ac11508d30e313a4f408a0d6" name="Makefile" role="data" />
+   <file baseinstalldir="/" md5sum="a3418ef5818af67cf7bd0e32b5f2e6d2" name="README.md" role="data" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.2.1</min>
+   </php>
+   <pearinstaller>
+    <min>1.9.3</min>
+   </pearinstaller>
+  </required>
+  <optional>
+   <package>
+    <name>Mockery</name>
+    <channel>pear.survivethedeepend.com</channel>
+   </package>
+  </optional>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>3.5.2</release>
+    <api>3.5.2</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2012-07-23</date>
+   <license uri="http://creativecommons.org/licenses/MIT/">MIT License</license>
+   <notes>
+Hotfix for two errors introduced the 3.5.0 release
+   </notes>
+  </release>
+ </changelog>
+</package>

@@ -14,6 +14,10 @@ applications against Twilio's REST API and generate TwiML responses.</d>
 
         <a>
             <r>
+                <v>3.5.2</v>
+                <s>stable</s>
+            </r>
+            <r>
                 <v>3.5.1</v>
                 <s>stable</s>
             </r>
@@ -56,6 +60,10 @@ applications against Twilio's REST API and generate TwiML responses.</d>
 
         </a>
 
+        <deps>
+            <v>3.5.2</v>
+            <d>a:2:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"5.2.1";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.9.3";}}s:8:"optional";a:1:{s:7:"package";a:2:{s:4:"name";s:7:"Mockery";s:7:"channel";s:26:"pear.survivethedeepend.com";}}}</d>
+        </deps>
         <deps>
             <v>3.5.1</v>
             <d>a:2:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"5.2.1";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.9.3";}}s:8:"optional";a:1:{s:7:"package";a:2:{s:4:"name";s:7:"Mockery";s:7:"channel";s:26:"pear.survivethedeepend.com";}}}</d>

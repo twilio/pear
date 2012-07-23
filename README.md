@@ -7,9 +7,6 @@ When you are bumping the version number, here is a checklist to follow:
 * Run the unit tests and the Twilio integration tests to check for
   incompatibilities.
 
-* Tag a new Github release with the version number, and also with the `latest`
-  tag.
-
 * Add a summary of the changes to the CHANGES file in the home directory.
 
 * If necessary, add the contributor to the AUTHORS file.
@@ -19,6 +16,10 @@ When you are bumping the version number, here is a checklist to follow:
 * Update the release number in docs/conf.py
 
 * Update the version number in docs/index.rst
+
+* Tag a new Github release with the version number, and also with the `latest`
+  tag.
+
 
 * Update the version number in package.php, add a short change note, and then
   run: 

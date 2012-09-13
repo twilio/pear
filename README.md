@@ -7,28 +7,32 @@ When you are bumping the version number, here is a checklist to follow:
 * Run the unit tests and the Twilio integration tests to check for
   incompatibilities.
 
+* Merge the branch.
+
 * Add a summary of the changes to the CHANGES file in the home directory.
 
 * If necessary, add the contributor to the AUTHORS file.
 
-* Bump the version in the user agent in Services/Twilio.php
+* Update the version number in the following places:
 
-* Update the release number in docs/conf.py
+    * The user agent in Services/Twilio.php
+    * The Docs configuration file docs/conf.py
+    * The docs homepage, docs/index.rst
+    * In package.php, and add a short change note
 
-* Update the version number in docs/index.rst
-
-* Update the version number in package.php, and add a short change note
+* Commit the above changes
 
 * Tag a new Github release with the version number, and also with the `latest`
   tag.
 
-        php package.php > package.xml
+        git tag -d latest
+        git tag latest
+        git tag X.Y.Z
 
-        pear package
+* Run the `bump_version.sh` script in this folder.
 
-    Then copy over the tgz ball to the folder containing
-    github.com/twilio/pear, and run:
+        sh bump_version.sh 3.7.2
 
-        pirum add . Services_Twilio-X.Y.Z.tgz
+    This will create a new package.xml file, create a tarball and a gzipped
+    tarball, and commit both to this repository automatically.
 
-    You may need to install some dependencies to get this to run properly.

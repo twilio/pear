@@ -1,5 +1,9 @@
 #!/bin/sh
 
+if [ $# -lt 1 ]; then
+    echo "Please supply a tag number"
+    exit 1;
+fi
 VERSION="$1";
 GZIPPED_REPO="Services_Twilio-$VERSION.tgz"
 

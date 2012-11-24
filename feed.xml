@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://twilio.github.com/pear</id>
-    <updated>2012-10-17T10:19:40-07:00</updated>
+    <updated>2012-11-23T23:40:05-08:00</updated>
     <title>twilio's PEAR Channel Server Latest Releases</title>
     <link href="http://twilio.github.com/pear/feed.xml" rel="self" />
     <author>
@@ -9,6 +9,19 @@
     </author>
 
     <entry>
+        <title>Services_Twilio 3.8.1 (stable)</title>
+        <link href="http://twilio.github.com/pear/get/Services_Twilio-3.8.1.tgz" />
+        <id>http://twilio.github.com/pear/get/Services_Twilio-3.8.1.tgz</id>
+        <author>
+            <name>kevinburke</name>
+        </author>
+        <updated>2012-11-24T07:40:02-08:00</updated>
+        <content>
+            
+Add count() and getNumber() convenience functions
+ 
+        </content>
+    </entry>    <entry>
         <title>Services_Twilio 3.8.0 (stable)</title>
         <link href="http://twilio.github.com/pear/get/Services_Twilio-3.8.0.tgz" />
         <id>http://twilio.github.com/pear/get/Services_Twilio-3.8.0.tgz</id>

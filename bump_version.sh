@@ -7,7 +7,7 @@ fi
 VERSION="$1";
 GZIPPED_REPO="Services_Twilio-$VERSION.tgz"
 
-pushd ../twilio-php;
+pushd ../php-helper;
     php package.php > package.xml;
     pear package;
     cp $GZIPPED_REPO ../pear;

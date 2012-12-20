@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://twilio.github.com/pear</id>
-    <updated>2012-12-15T00:07:30-08:00</updated>
+    <updated>2012-12-20T11:18:57-08:00</updated>
     <title>twilio's PEAR Channel Server Latest Releases</title>
     <link href="http://twilio.github.com/pear/feed.xml" rel="self" />
     <author>
@@ -9,6 +9,19 @@
     </author>
 
     <entry>
+        <title>Services_Twilio 3.9.0 (stable)</title>
+        <link href="http://twilio.github.com/pear/get/Services_Twilio-3.9.0.tgz" />
+        <id>http://twilio.github.com/pear/get/Services_Twilio-3.9.0.tgz</id>
+        <author>
+            <name>kevinburke</name>
+        </author>
+        <updated>2012-12-20T19:18:52-08:00</updated>
+        <content>
+            
+Fix TwiML generation for non-ASCII characters
+ 
+        </content>
+    </entry>    <entry>
         <title>Services_Twilio 3.8.3 (stable)</title>
         <link href="http://twilio.github.com/pear/get/Services_Twilio-3.8.3.tgz" />
         <id>http://twilio.github.com/pear/get/Services_Twilio-3.8.3.tgz</id>

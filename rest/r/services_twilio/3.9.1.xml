@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+    <p xlink:href="/rest/p/services_twilio">Services_Twilio</p>
+    <c>twilio.github.com/pear</c>
+    <v>3.9.1</v>
+    <st>stable</st>
+    <l>MIT License</l>
+    <m>kevinburke</m>
+    <s>PHP helper library for Twilio</s>
+    <d>A SDK (or helper library, as we're calling them) for PHP developers to write
+applications against Twilio's REST API and generate TwiML responses.</d>
+    <da>2012-12-30 08:19:44</da>
+    <n>
+Add $last_response attribute to the $client
+ </n>
+    <f>489696</f>
+    <g>http://twilio.github.com/pear/get/Services_Twilio-3.9.1</g>
+    <x xlink:href="package.3.9.1.xml"/>
+</r>

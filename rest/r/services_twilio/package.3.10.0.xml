@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Services_Twilio</name>
+ <channel>twilio.github.com/pear</channel>
+ <summary>PHP helper library for Twilio</summary>
+ <description>A SDK (or helper library, as we&apos;re calling them) for PHP developers to write
+applications against Twilio&apos;s REST API and generate TwiML responses.</description>
+ <lead>
+  <name>Kevin Burke</name>
+  <user>kevinburke</user>
+  <email>kevin@twilio.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2013-02-02</date>
+ <time>20:04:44</time>
+ <version>
+  <release>3.10.0</release>
+  <api>3.10.0</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://creativecommons.org/licenses/MIT/">MIT License</license>
+ <notes>
+Use HTTP status code for error reporting
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="3b8d1f9c31044211ee520e07bf293312" name="docs/api/rest.rst" role="data" />
+   <file baseinstalldir="/" md5sum="1beca5a41aa0f9bf283eaf7e445dc902" name="docs/api/services.rst" role="data" />
+   <file baseinstalldir="/" md5sum="42dd9e0565ed2fc30b9aa5cfb4dc00fb" name="docs/usage/rest/accounts.rst" role="data" />
+   <file baseinstalldir="/" md5sum="1db525902a81477de4ed8ea392159e94" name="docs/usage/rest/applications.rst" role="data" />
+   <file baseinstalldir="/" md5sum="d6bacbff9b026b5a3a4ccacdf0bd3e9b" name="docs/usage/rest/callerids.rst" role="data" />
+   <file baseinstalldir="/" md5sum="eebe576bdfecf19282889a6d6ff16280" name="docs/usage/rest/calls.rst" role="data" />
+   <file baseinstalldir="/" md5sum="74660f42c3aaecb4b0215499645e72b8" name="docs/usage/rest/conferences.rst" role="data" />
+   <file baseinstalldir="/" md5sum="dfc7f768824efeea5f6b07a1ea597e8f" name="docs/usage/rest/members.rst" role="data" />
+   <file baseinstalldir="/" md5sum="262a8f3618d9d4fd48e700e74172e4d1" name="docs/usage/rest/notifications.rst" role="data" />
+   <file baseinstalldir="/" md5sum="5c453d5ce965c62c80e005ea56d67f5c" name="docs/usage/rest/phonenumbers.rst" role="data" />
+   <file baseinstalldir="/" md5sum="40eb90e3935fad1dc176092ec3e99a3a" name="docs/usage/rest/queues.rst" role="data" />
+   <file baseinstalldir="/" md5sum="4f4291c2e9102b1cca522ce86fc78af0" name="docs/usage/rest/recordings.rst" role="data" />
+   <file baseinstalldir="/" md5sum="63491b9dcb5eb769b9d9290fd92ddc9d" name="docs/usage/rest/sms-messages.rst" role="data" />
+   <file baseinstalldir="/" md5sum="a906ae61fe4dc690059a53f140dad083" name="docs/usage/rest/transcriptions.rst" role="data" />
+   <file baseinstalldir="/" md5sum="6438daf9944427340b0746cd746ec250" name="docs/usage/rest/usage-records.rst" role="data" />
+   <file baseinstalldir="/" md5sum="2816b2f042085d1c0be5c783252063c8" name="docs/usage/rest/usage-triggers.rst" role="data" />
+   <file baseinstalldir="/" md5sum="948080c1ae78f7e712938616365ae6c3" name="docs/usage/rest.rst" role="data" />
+   <file baseinstalldir="/" md5sum="96e1fe67549520f53d15494ff2b2b05c" name="docs/usage/token-generation.rst" role="data" />
+   <file baseinstalldir="/" md5sum="f4fdefe98cf484a097287423a41ed574" name="docs/usage/twiml.rst" role="data" />
+   <file baseinstalldir="/" md5sum="79062dd19eccc20faac2124b10cab1c4" name="docs/usage/validation.rst" role="data" />
+   <file baseinstalldir="/" md5sum="ed0c89155306d409aa6161d3e27377f7" name="docs/_build/doctrees/api/rest.doctree" role="data" />
+   <file baseinstalldir="/" md5sum="0fade04bf7c76f1bb817f2e00b2bc21d" name="docs/_build/doctrees/api/services.doctree" role="data" />
+   <file baseinstalldir="/" md5sum="e0d5a5e350b2e0b1c69deb6e6fa2dbdd" name="docs/_build/doctrees/usage/rest/accounts.doctree" role="data" />
+   <file baseinstalldir="/" md5sum="6edc1cdd22c8e222aa67ce596a490571" name="docs/_build/doctrees/usage/rest/applications.doctree" role="data" />
+   <file baseinstalldir="/" md5sum="da1a51359e5af9a2d8e54e3c3c2286bc" name="docs/_build/doctrees/usage/rest/callerids.doctree" role="data" />
+   <file baseinstalldir="/" md5sum="2f90eefda859eb983eac4bd7eaf13137" name="docs/_build/doctrees/usage/rest/calls.doctree" role="data" />
+   <file baseinstalldir="/" md5sum="6d69d48ff08047b11852da32d74e2014" name="docs/_build/doctrees/usage/rest/conferences.doctree" role="data" />
+   <file baseinstalldir="/" md5sum="bfb7fdba780c8d8c63b0f6cd4c677552" name="docs/_build/doctrees/usage/rest/members.doctree" role="data" />
+   <file baseinstalldir="/" md5sum="b580643f399b7d90ec0e2da31f9ed903" name="docs/_build/doctrees/usage/rest/notifications.doctree" role="data" />
+   <file baseinstalldir="/" md5sum="ea395b9bbdb77f0eafc77b2b1fff7bba" name="docs/_build/doctrees/usage/rest/phonenumbers.doctree" role="data" />
+   <file baseinstalldir="/" md5sum="2260a18740ab4b1f3de69e553b6ec325" name="docs/_build/doctrees/usage/rest/queues.doctree" role="data" />
+   <file baseinstalldir="/" md5sum="679fe4c4e251a24243300cc7a62996d7" name="docs/_build/doctrees/usage/rest/recordings.doctree" role="data" />
+   <file baseinstalldir="/" md5sum="3e7e7c98be6a7f9623ec15869919ff5e" name="docs/_build/doctrees/usage/rest/sms-messages.doctree" role="data" />
+   <file baseinstalldir="/" md5sum="cb5e3cecc40dfe97f80821cb945867d1" name="docs/_build/doctrees/usage/rest/transcriptions.doctree" role="data" />
+   <file baseinstalldir="/" md5sum="693ad71f34e99ec05ee71e2ceed26371" name="docs/_build/doctrees/usage/rest/usage-records.doctree" role="data" />
+   <file baseinstalldir="/" md5sum="5c1fb3bf4b4a9feea4376cb53baa67e2" name="docs/_build/doctrees/usage/rest/usage-triggers.doctree" role="data" />
+   <file baseinstalldir="/" md5sum="bd366f361b25e65e9e15cf5ea4cee1f2" name="docs/_build/doctrees/usage/rest.doctree" role="data" />
+   <file baseinstalldir="/" md5sum="c76a1ed67d2886a397c0eb07933f0d7c" name="docs/_build/doctrees/usage/token-generation.doctree" role="data" />
+   <file baseinstalldir="/" md5sum="7eb2ebc6cd22a0756fa09c9601b402de" name="docs/_build/doctrees/usage/twiml.doctree" role="data" />
+   <file baseinstalldir="/" md5sum="c57bc7c475f7599159a525d5588ec822" name="docs/_build/doctrees/usage/validation.doctree" role="data" />
+   <file baseinstalldir="/" md5sum="a54e4d83f6f5b1f794f846547a260df6" name="docs/_build/doctrees/_themes/README.doctree" role="data" />
+   <file baseinstalldir="/" md5sum="9e6201c13e035312e173fece77f9378b" name="docs/_build/doctrees/environment.pickle" role="data" />
+   <file baseinstalldir="/" md5sum="8bdb22d1d937818015863310ac4a6920" name="docs/_build/doctrees/faq.doctree" role="data" />
+   <file baseinstalldir="/" md5sum="2e17aaffd74ec597efedc9706ce1ddc3" name="docs/_build/doctrees/index.doctree" role="data" />
+   <file baseinstalldir="/" md5sum="c6893b177479a5892ae7de79b2ab23aa" name="docs/_build/doctrees/quickstart.doctree" role="data" />
+   <file baseinstalldir="/" md5sum="4d528225a5d3d1ab3db7855284925f25" name="docs/_build/html/api/rest.html" role="doc" />
+   <file baseinstalldir="/" md5sum="fa0910a4bcaf419ef7d4f6c3caed7280" name="docs/_build/html/api/services.html" role="doc" />
+   <file baseinstalldir="/" md5sum="6859ff41736cf621abbcd1da2ce509ee" name="docs/_build/html/usage/rest/accounts.html" role="doc" />
+   <file baseinstalldir="/" md5sum="8220416e7610e7462c65306a22ae75f1" name="docs/_build/html/usage/rest/applications.html" role="doc" />
+   <file baseinstalldir="/" md5sum="74fb386596e7ce81ce0ac1a6690b018e" name="docs/_build/html/usage/rest/callerids.html" role="doc" />
+   <file baseinstalldir="/" md5sum="bde996b099ad6442d015695447b270d6" name="docs/_build/html/usage/rest/calls.html" role="doc" />
+   <file baseinstalldir="/" md5sum="df52afaaed3cc135e865ac4bac917c81" name="docs/_build/html/usage/rest/conferences.html" role="doc" />
+   <file baseinstalldir="/" md5sum="1a7b606863af8771449056ecbe95fd77" name="docs/_build/html/usage/rest/members.html" role="doc" />
+   <file baseinstalldir="/" md5sum="2503695b71a669c481f6b8c2b827f120" name="docs/_build/html/usage/rest/notifications.html" role="doc" />
+   <file baseinstalldir="/" md5sum="88fa63708f0a9101099100d27777a296" name="docs/_build/html/usage/rest/phonenumbers.html" role="doc" />
+   <file baseinstalldir="/" md5sum="d96e7963fa5f149da90262706c725556" name="docs/_build/html/usage/rest/queues.html" role="doc" />
+   <file baseinstalldir="/" md5sum="64b4fd27089c1363f283c24c9b0fe966" name="docs/_build/html/usage/rest/recordings.html" role="doc" />
+   <file baseinstalldir="/" md5sum="8428f5a26bafe5f910cf6eb358b55df3" name="docs/_build/html/usage/rest/sms-messages.html" role="doc" />
+   <file baseinstalldir="/" md5sum="d14b0cf0d788be8f4811df7bb6b17b9a" name="docs/_build/html/usage/rest/transcriptions.html" role="doc" />
+   <file baseinstalldir="/" md5sum="f6aeaa34412b7381077e2cbb27aacf5d" name="docs/_build/html/usage/rest/usage-records.html" role="doc" />
+   <file baseinstalldir="/" md5sum="197af49b17cd68ac7bc0d68d9dd5cb5b" name="docs/_build/html/usage/rest/usage-triggers.html" role="doc" />
+   <file baseinstalldir="/" md5sum="d3bd97055fb76425781b543942f8f229" name="docs/_build/html/usage/rest.html" role="doc" />
+   <file baseinstalldir="/" md5sum="3af399ee7d12e7172cb4230d4d0b6f98" name="docs/_build/html/usage/token-generation.html" role="doc" />
+   <file baseinstalldir="/" md5sum="b59fd74b11e258f68bc04185019bb9e5" name="docs/_build/html/usage/twiml.html" role="doc" />
+   <file baseinstalldir="/" md5sum="1460d534e1f7daa8b45ce7369a8b2720" name="docs/_build/html/usage/validation.html" role="doc" />
+   <file baseinstalldir="/" md5sum="aa1c5fbdc9ec719946984302fc5ad54f" name="docs/_build/html/_sources/api/rest.txt" role="data" />
+   <file baseinstalldir="/" md5sum="1beca5a41aa0f9bf283eaf7e445dc902" name="docs/_build/html/_sources/api/services.txt" role="data" />
+   <file baseinstalldir="/" md5sum="42dd9e0565ed2fc30b9aa5cfb4dc00fb" name="docs/_build/html/_sources/usage/rest/accounts.txt" role="data" />
+   <file baseinstalldir="/" md5sum="1db525902a81477de4ed8ea392159e94" name="docs/_build/html/_sources/usage/rest/applications.txt" role="data" />
+   <file baseinstalldir="/" md5sum="d6bacbff9b026b5a3a4ccacdf0bd3e9b" name="docs/_build/html/_sources/usage/rest/callerids.txt" role="data" />
+   <file baseinstalldir="/" md5sum="eebe576bdfecf19282889a6d6ff16280" name="docs/_build/html/_sources/usage/rest/calls.txt" role="data" />
+   <file baseinstalldir="/" md5sum="74660f42c3aaecb4b0215499645e72b8" name="docs/_build/html/_sources/usage/rest/conferences.txt" role="data" />
+   <file baseinstalldir="/" md5sum="dfc7f768824efeea5f6b07a1ea597e8f" name="docs/_build/html/_sources/usage/rest/members.txt" role="data" />
+   <file baseinstalldir="/" md5sum="262a8f3618d9d4fd48e700e74172e4d1" name="docs/_build/html/_sources/usage/rest/notifications.txt" role="data" />
+   <file baseinstalldir="/" md5sum="5c453d5ce965c62c80e005ea56d67f5c" name="docs/_build/html/_sources/usage/rest/phonenumbers.txt" role="data" />
+   <file baseinstalldir="/" md5sum="40eb90e3935fad1dc176092ec3e99a3a" name="docs/_build/html/_sources/usage/rest/queues.txt" role="data" />
+   <file baseinstalldir="/" md5sum="4f4291c2e9102b1cca522ce86fc78af0" name="docs/_build/html/_sources/usage/rest/recordings.txt" role="data" />
+   <file baseinstalldir="/" md5sum="63491b9dcb5eb769b9d9290fd92ddc9d" name="docs/_build/html/_sources/usage/rest/sms-messages.txt" role="data" />
+   <file baseinstalldir="/" md5sum="a906ae61fe4dc690059a53f140dad083" name="docs/_build/html/_sources/usage/rest/transcriptions.txt" role="data" />
+   <file baseinstalldir="/" md5sum="6438daf9944427340b0746cd746ec250" name="docs/_build/html/_sources/usage/rest/usage-records.txt" role="data" />
+   <file baseinstalldir="/" md5sum="2816b2f042085d1c0be5c783252063c8" name="docs/_build/html/_sources/usage/rest/usage-triggers.txt" role="data" />
+   <file baseinstalldir="/" md5sum="948080c1ae78f7e712938616365ae6c3" name="docs/_build/html/_sources/usage/rest.txt" role="data" />
+   <file baseinstalldir="/" md5sum="96e1fe67549520f53d15494ff2b2b05c" name="docs/_build/html/_sources/usage/token-generation.txt" role="data" />
+   <file baseinstalldir="/" md5sum="f4fdefe98cf484a097287423a41ed574" name="docs/_build/html/_sources/usage/twiml.txt" role="data" />
+   <file baseinstalldir="/" md5sum="79062dd19eccc20faac2124b10cab1c4" name="docs/_build/html/_sources/usage/validation.txt" role="data" />
+   <file baseinstalldir="/" md5sum="53feede20e37aa68da01c5fe753e21fc" name="docs/_build/html/_sources/_themes/README.txt" role="data" />
+   <file baseinstalldir="/" md5sum="fc6023bef307071bfa9a64e8ba1ea1c7" name="docs/_build/html/_sources/faq.txt" role="data" />
+   <file baseinstalldir="/" md5sum="030b156ad5d8fb16d25b0dc053b96fc5" name="docs/_build/html/_sources/index.txt" role="data" />
+   <file baseinstalldir="/" md5sum="9822e4c7d48da2445fa4673099c102be" name="docs/_build/html/_sources/quickstart.txt" role="data" />
+   <file baseinstalldir="/" md5sum="ae6667053ad118020b8e68ccf307b519" name="docs/_build/html/_static/ajax-loader.gif" role="data" />
+   <file baseinstalldir="/" md5sum="e750379ff33007bc9c3b777f94d0ab26" name="docs/_build/html/_static/basic.css" role="data" />
+   <file baseinstalldir="/" md5sum="0c850bb4920b581bf5e5dba5fa493a64" name="docs/_build/html/_static/comment-bright.png" role="data" />
+   <file baseinstalldir="/" md5sum="2635dda49c823e8122d4d11ed385f33d" name="docs/_build/html/_static/comment-close.png" role="data" />
+   <file baseinstalldir="/" md5sum="882e40f3d6a16c6ed35659b105251525" name="docs/_build/html/_static/comment.png" role="data" />
+   <file baseinstalldir="/" md5sum="5ff571aa60e63f69c1890283e240ff8d" name="docs/_build/html/_static/doctools.js" role="data" />
+   <file baseinstalldir="/" md5sum="ebe8979581eda700fb234a73c661a4b9" name="docs/_build/html/_static/down-pressed.png" role="data" />
+   <file baseinstalldir="/" md5sum="f6f3c819cc7ca27d7fd3347e5e7ffe0f" name="docs/_build/html/_static/down.png" role="data" />
+   <file baseinstalldir="/" md5sum="6587e59c55e626744eb6fc11129d99a7" name="docs/_build/html/_static/file.png" role="data" />
+   <file baseinstalldir="/" md5sum="4d6664a985aec6bf34e8529bc3b38a0d" name="docs/_build/html/_static/flasky.css" role="data" />
+   <file baseinstalldir="/" md5sum="10092eee563dec2dca82b77d2cf5a1ae" name="docs/_build/html/_static/jquery.js" role="data" />
+   <file baseinstalldir="/" md5sum="8d572395aa95c89584a09813ada4dfa1" name="docs/_build/html/_static/minus.png" role="data" />
+   <file baseinstalldir="/" md5sum="0125e6faa04e2cf0141a2d599d3bb220" name="docs/_build/html/_static/plus.png" role="data" />
+   <file baseinstalldir="/" md5sum="d625a0adb949f181bd0d3f1432b0fa7f" name="docs/_build/html/_static/pygments.css" role="data" />
+   <file baseinstalldir="/" md5sum="d550841adeedc8ed47c40ee607620937" name="docs/_build/html/_static/searchtools.js" role="data" />
+   <file baseinstalldir="/" md5sum="7b671df8d334aa47eb4ed148037996b6" name="docs/_build/html/_static/small_flask.css" role="data" />
+   <file baseinstalldir="/" md5sum="db5ba047a66617d4cd3e8c5099cc51db" name="docs/_build/html/_static/underscore.js" role="data" />
+   <file baseinstalldir="/" md5sum="8ea9bd109342f87fee97943b479c6f7e" name="docs/_build/html/_static/up-pressed.png" role="data" />
+   <file baseinstalldir="/" md5sum="ecc373278454cc8ecc12d6ca69e55b36" name="docs/_build/html/_static/up.png" role="data" />
+   <file baseinstalldir="/" md5sum="9e61e1e8a7433c56bd7e5a615affcf85" name="docs/_build/html/_static/websupport.js" role="data" />
+   <file baseinstalldir="/" md5sum="324210ce19c3d827e1c73ac7df252297" name="docs/_build/html/_themes/README.html" role="doc" />
+   <file baseinstalldir="/" md5sum="b5ca5c663d06e39aa6946a875e38c218" name="docs/_build/html/faq.html" role="doc" />
+   <file baseinstalldir="/" md5sum="8984afe450732dd673afe2eeaf61f973" name="docs/_build/html/genindex.html" role="doc" />
+   <file baseinstalldir="/" md5sum="3b5a91c1f79d3b7748c384c615671bcd" name="docs/_build/html/index.html" role="doc" />
+   <file baseinstalldir="/" md5sum="54bcd389f979efc326ef3b876dfad894" name="docs/_build/html/objects.inv" role="data" />
+   <file baseinstalldir="/" md5sum="93224dc14f5e98e0f6a35be54fd1c079" name="docs/_build/html/quickstart.html" role="doc" />
+   <file baseinstalldir="/" md5sum="4db62145c28d09a36b9bd9112742c1fd" name="docs/_build/html/search.html" role="doc" />
+   <file baseinstalldir="/" md5sum="649aa28131e36e46b7c4249818dd0fe1" name="docs/_build/html/searchindex.js" role="data" />
+   <file baseinstalldir="/" md5sum="24655e067e486416ec777b959aaaee6d" name="docs/_themes/kr/static/flasky.css_t" role="data" />
+   <file baseinstalldir="/" md5sum="7b671df8d334aa47eb4ed148037996b6" name="docs/_themes/kr/static/small_flask.css" role="data" />
+   <file baseinstalldir="/" md5sum="19578d642b94daedb5609b02fa7ee07c" name="docs/_themes/kr/layout.html" role="doc" />
+   <file baseinstalldir="/" md5sum="36867afb4e2b70a4e52b2484c75a96b2" name="docs/_themes/kr/relations.html" role="doc" />
+   <file baseinstalldir="/" md5sum="b4c45c169f51e2fa834d9d743a707bcd" name="docs/_themes/kr/theme.conf" role="data" />
+   <file baseinstalldir="/" md5sum="c977d29ee0446aaf471b2d8758518a5c" name="docs/_themes/kr_small/static/flasky.css_t" role="data" />
+   <file baseinstalldir="/" md5sum="b2bc81b5397edd4ea734c059986aa987" name="docs/_themes/kr_small/layout.html" role="doc" />
+   <file baseinstalldir="/" md5sum="0f8b295caeeeefca5ffb6186ad1d2704" name="docs/_themes/kr_small/theme.conf" role="data" />
+   <file baseinstalldir="/" md5sum="ca4247951c1e92c27bda733dd14f1d25" name="docs/_themes/flask_theme_support.py" role="data" />
+   <file baseinstalldir="/" md5sum="d8c7fb190c8a3f35361549019822e996" name="docs/_themes/LICENSE" role="data" />
+   <file baseinstalldir="/" md5sum="53feede20e37aa68da01c5fe753e21fc" name="docs/_themes/README.rst" role="data" />
+   <file baseinstalldir="/" md5sum="de195f0ca5eab86995568a167df43290" name="docs/conf.py" role="data" />
+   <file baseinstalldir="/" md5sum="fc6023bef307071bfa9a64e8ba1ea1c7" name="docs/faq.rst" role="data" />
+   <file baseinstalldir="/" md5sum="ba7259a828277c8625995cfe42144598" name="docs/index.rst" role="data" />
+   <file baseinstalldir="/" md5sum="9ec0b5ba18059ef959a888d5dd743ec7" name="docs/Makefile" role="data" />
+   <file baseinstalldir="/" md5sum="9822e4c7d48da2445fa4673099c102be" name="docs/quickstart.rst" role="data" />
+   <file baseinstalldir="/" md5sum="fb0e3d7856cc5d047a859df51ecfc2b1" name="docs/requirements.txt" role="data" />
+   <file baseinstalldir="/" md5sum="a244098a02db481a4716a8f3c8fe3157" name="Services/Twilio/Rest/Account.php" role="php" />
+   <file baseinstalldir="/" md5sum="cf980bdc41d9d4f613aa15e8977ae37c" name="Services/Twilio/Rest/Accounts.php" role="php" />
+   <file baseinstalldir="/" md5sum="ded36749ae69297a78652543db7a4a3d" name="Services/Twilio/Rest/Application.php" role="php" />
+   <file baseinstalldir="/" md5sum="a2653aef9ebedfb85534d1bd87ce8c14" name="Services/Twilio/Rest/Applications.php" role="php" />
+   <file baseinstalldir="/" md5sum="f52b8af05f5cc5ffec65dc13d7924d21" name="Services/Twilio/Rest/AuthorizedConnectApp.php" role="php" />
+   <file baseinstalldir="/" md5sum="b1dc77013bcf661e0262113a9e53a4c7" name="Services/Twilio/Rest/AuthorizedConnectApps.php" role="php" />
+   <file baseinstalldir="/" md5sum="f3a1cda40b0ae0533034c9583de18b62" name="Services/Twilio/Rest/AvailablePhoneNumber.php" role="php" />
+   <file baseinstalldir="/" md5sum="d0572e8e653df874d5b1b3ca1312cabc" name="Services/Twilio/Rest/AvailablePhoneNumbers.php" role="php" />
+   <file baseinstalldir="/" md5sum="a7ea713cfc95c0fbfcabb3244961b7e3" name="Services/Twilio/Rest/Call.php" role="php" />
+   <file baseinstalldir="/" md5sum="216535549440933ec1698ca31110999c" name="Services/Twilio/Rest/Calls.php" role="php" />
+   <file baseinstalldir="/" md5sum="a2d26ece3d3417e4f0315b2df4772e97" name="Services/Twilio/Rest/Conference.php" role="php" />
+   <file baseinstalldir="/" md5sum="16d9ab4511188e15c307c3312d2bc0dc" name="Services/Twilio/Rest/Conferences.php" role="php" />
+   <file baseinstalldir="/" md5sum="b0a35e83960c9a2018b82701d8fb8ed7" name="Services/Twilio/Rest/ConnectApp.php" role="php" />
+   <file baseinstalldir="/" md5sum="832aaa23a69ccac9ce920f668e3ac5b8" name="Services/Twilio/Rest/ConnectApps.php" role="php" />
+   <file baseinstalldir="/" md5sum="89b21721ceb23c88b2e787d12ccd1121" name="Services/Twilio/Rest/IncomingPhoneNumber.php" role="php" />
+   <file baseinstalldir="/" md5sum="c662999585fd688f364a6e7d301a4763" name="Services/Twilio/Rest/IncomingPhoneNumbers.php" role="php" />
+   <file baseinstalldir="/" md5sum="5fd80f476594cbb655008bbf251ce3fd" name="Services/Twilio/Rest/Member.php" role="php" />
+   <file baseinstalldir="/" md5sum="a6bfe2ada21ff8cc0d3054bf2c1749d4" name="Services/Twilio/Rest/Members.php" role="php" />
+   <file baseinstalldir="/" md5sum="f0b0cf2e7c0bfa069085b2d6aaf10823" name="Services/Twilio/Rest/Notification.php" role="php" />
+   <file baseinstalldir="/" md5sum="8a8f87a691a6a5c5aa372a60fe76407f" name="Services/Twilio/Rest/Notifications.php" role="php" />
+   <file baseinstalldir="/" md5sum="ec1875490e5f92fd59be1375d2603288" name="Services/Twilio/Rest/OutgoingCallerId.php" role="php" />
+   <file baseinstalldir="/" md5sum="cda1511452891896481cbd0b82dc8a40" name="Services/Twilio/Rest/OutgoingCallerIds.php" role="php" />
+   <file baseinstalldir="/" md5sum="c8408286a0c2414e9e37655c59c24b56" name="Services/Twilio/Rest/Participant.php" role="php" />
+   <file baseinstalldir="/" md5sum="86395e7668d99910fa219ca66fcf911f" name="Services/Twilio/Rest/Participants.php" role="php" />
+   <file baseinstalldir="/" md5sum="ab3b0875e07cdd0dc6a2df339871f1a4" name="Services/Twilio/Rest/Queue.php" role="php" />
+   <file baseinstalldir="/" md5sum="3385271c313a5cfbda28e1b0a2a3edd8" name="Services/Twilio/Rest/Queues.php" role="php" />
+   <file baseinstalldir="/" md5sum="c2c3e6fdadd7e06b037a03a25d6129aa" name="Services/Twilio/Rest/Recording.php" role="php" />
+   <file baseinstalldir="/" md5sum="c4d82a27bf6ecb03fe75fa1a33a37db2" name="Services/Twilio/Rest/Recordings.php" role="php" />
+   <file baseinstalldir="/" md5sum="c6c853b8f0267076da88eca3696c284b" name="Services/Twilio/Rest/Sandbox.php" role="php" />
+   <file baseinstalldir="/" md5sum="7aae8acf2de02ac695eb75a5882d40da" name="Services/Twilio/Rest/ShortCode.php" role="php" />
+   <file baseinstalldir="/" md5sum="c0e1ab55c74d9545fdcd87358b568585" name="Services/Twilio/Rest/ShortCodes.php" role="php" />
+   <file baseinstalldir="/" md5sum="dd8c5c28b76e15715cb0adcafd537531" name="Services/Twilio/Rest/SmsMessage.php" role="php" />
+   <file baseinstalldir="/" md5sum="71cb4d5cc1c41bf0d80a4e038f2f89bb" name="Services/Twilio/Rest/SmsMessages.php" role="php" />
+   <file baseinstalldir="/" md5sum="c7da12000273c22dad5ee80bfb29e43a" name="Services/Twilio/Rest/Transcription.php" role="php" />
+   <file baseinstalldir="/" md5sum="d0d8d443a9fa380adc04f71225907e92" name="Services/Twilio/Rest/Transcriptions.php" role="php" />
+   <file baseinstalldir="/" md5sum="ab8a2b01e4fdcbc3ef7b0d07501dba1c" name="Services/Twilio/Rest/UsageRecord.php" role="php" />
+   <file baseinstalldir="/" md5sum="50de7a5880c0cfb01fc75359e633e434" name="Services/Twilio/Rest/UsageRecords.php" role="php" />
+   <file baseinstalldir="/" md5sum="8ef3e3de35364f013f1cbf1dbc8b1c2f" name="Services/Twilio/Rest/UsageTrigger.php" role="php" />
+   <file baseinstalldir="/" md5sum="845d809417ec402be5f4bf4dd12e5da8" name="Services/Twilio/Rest/UsageTriggers.php" role="php" />
+   <file baseinstalldir="/" md5sum="9056a9d104943f81bf960e6b37aa4779" name="Services/Twilio/AutoPagingIterator.php" role="php" />
+   <file baseinstalldir="/" md5sum="241b553ebc6760eb7501ccb87d720cfd" name="Services/Twilio/Capability.php" role="php" />
+   <file baseinstalldir="/" md5sum="d7d46811241bca7eb2a2d4379ac36af8" name="Services/Twilio/InstanceResource.php" role="php" />
+   <file baseinstalldir="/" md5sum="91ecd1ccef5974b36739766d8a842ab7" name="Services/Twilio/ListResource.php" role="php" />
+   <file baseinstalldir="/" md5sum="e356cb65aa5aec4808a4a622ecd1e277" name="Services/Twilio/Page.php" role="php" />
+   <file baseinstalldir="/" md5sum="d607dc7812d1c20f1112b5d039ef0eff" name="Services/Twilio/PartialApplicationHelper.php" role="php" />
+   <file baseinstalldir="/" md5sum="e2669a5fdbb12cf2cd63d3c53fd41cd5" name="Services/Twilio/RequestValidator.php" role="php" />
+   <file baseinstalldir="/" md5sum="2b2526b6b5286a1b18163f52b4a3b838" name="Services/Twilio/Resource.php" role="php" />
+   <file baseinstalldir="/" md5sum="dc6eecde955fe7b17a4b8ce3d378712a" name="Services/Twilio/RestException.php" role="php" />
+   <file baseinstalldir="/" md5sum="6dfb4789b1d52daf72d7b82e77ec9079" name="Services/Twilio/TimeRangeResource.php" role="php" />
+   <file baseinstalldir="/" md5sum="7703f3e1c53d590787503d7403c5096f" name="Services/Twilio/TinyHttp.php" role="php" />
+   <file baseinstalldir="/" md5sum="cad19729b10ca4dd8d12c77a1cd7a5f7" name="Services/Twilio/Twiml.php" role="php" />
+   <file baseinstalldir="/" md5sum="df4ef06997e8238088c74b75d8a77f3a" name="Services/Twilio/UsageResource.php" role="php" />
+   <file baseinstalldir="/" md5sum="661bdf31600c25dd28e1a69c6991c476" name="Services/cacert.pem" role="php" />
+   <file baseinstalldir="/" md5sum="4cd7d9f7fe41ad04b4880069132baf8c" name="Services/Twilio.php" role="php" />
+   <file baseinstalldir="/" md5sum="91357ebd5952551f85c9a7d736cbca81" name="tests/Bootstrap.php" role="test" />
+   <file baseinstalldir="/" md5sum="0ba4d588a755d70e34efb0d542b20fba" name="tests/CapabilityTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="098a225d3a33745e3ee9321d6a38bda9" name="tests/phpunit.xml" role="test" />
+   <file baseinstalldir="/" md5sum="594e47127a06797d2c03d3aa267aaba5" name="tests/README" role="test" />
+   <file baseinstalldir="/" md5sum="9b3cbe48d4d495ae5a5b69c6d2ccd5bc" name="tests/RequestValidatorTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="2811290489a312ee70700af5ea789d87" name="tests/ResourcesTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="4ca26850f10ff4d21e4e7636356143bf" name="tests/TwilioTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="a4736d660b379db7308ba0e7fe7e10a6" name="tests/TwimlTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="361956fb71e3b9af1f0a299c344a8a9a" name="AUTHORS" role="data" />
+   <file baseinstalldir="/" md5sum="c9a1d96c9f9d16a102a1d0c69f0d1429" name="CHANGES.md" role="data" />
+   <file baseinstalldir="/" md5sum="f04e9e68c3303555cb9bdbd98bc05113" name="LICENSE" role="data" />
+   <file baseinstalldir="/" md5sum="90fa856106978964ef8eb769e814a6fe" name="Makefile" role="data" />
+   <file baseinstalldir="/" md5sum="f4b61334d14a1c3f950f4664235d7af9" name="README.md" role="data" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.2.1</min>
+   </php>
+   <pearinstaller>
+    <min>1.9.3</min>
+   </pearinstaller>
+  </required>
+  <optional>
+   <package>
+    <name>Mockery</name>
+    <channel>pear.survivethedeepend.com</channel>
+   </package>
+  </optional>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>3.10.0</release>
+    <api>3.10.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2013-02-02</date>
+   <license uri="http://creativecommons.org/licenses/MIT/">MIT License</license>
+   <notes>
+Use HTTP status code for error reporting
+   </notes>
+  </release>
+ </changelog>
+</package>

@@ -15,7 +15,7 @@ applications against Twilio's REST API and generate TwiML responses.</d>
     <n>
 Use HTTP status code for error reporting
  </n>
-    <f>490781</f>
+    <f>490774</f>
     <g>http://twilio.github.com/pear/get/Services_Twilio-3.10.0</g>
     <x xlink:href="package.3.10.0.xml"/>
 </r>

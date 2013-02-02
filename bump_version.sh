@@ -19,4 +19,4 @@ rm -f $GZIPPED_REPO;
 git add .;
 git ci -m "Bump PEAR library version to $VERSION"
 
-echo 'New version added to the repository. Push to Github to update PEAR'
+echo "New version added to the repository. Push to Github to update PEAR:\n\n\tgit push origin gh-pages"

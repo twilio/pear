@@ -18,8 +18,9 @@ pre { background-color: #000; color: #fff; margin: 5px 0; overflow: auto; paddin
 #ft { margin-top: 10px }
 ul { margin-top: 5px }
 li strong { color: #666 }
+dd { margin-left: 20px }
 p { margin-bottom: 10px }
 table { width: 100% }
 table th { width: 20% }
-table td, table th { padding: 4px; border: 1px solid #ccc }
+table td, table th { vertical-align: top; padding: 4px; border: 1px solid #ccc }
 th { background-color: #eee }

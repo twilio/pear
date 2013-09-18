@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -ev
+
 if [ $# -lt 1 ]; then
     echo "Please supply a tag number"
     exit 1;

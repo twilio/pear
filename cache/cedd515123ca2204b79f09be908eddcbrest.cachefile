@@ -1,0 +1,9 @@
+a:16:{s:7:"attribs";a:4:{s:5:"xmlns";s:37:"http://pear.php.net/dtd/rest.release2";s:9:"xmlns:xsi";s:41:"http://www.w3.org/2001/XMLSchema-instance";s:11:"xmlns:xlink";s:28:"http://www.w3.org/1999/xlink";s:18:"xsi:schemaLocation";s:83:"http://pear.php.net/dtd/rest.release2     http://pear.php.net/dtd/rest.release2.xsd";}s:1:"p";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:39:"/rest/p/pear_packagefilemanager_plugins";}s:8:"_content";s:31:"PEAR_PackageFileManager_Plugins";}s:1:"c";s:12:"pear.php.net";s:1:"v";s:5:"1.0.2";s:1:"a";s:5:"1.0.0";s:2:"mp";s:5:"4.3.0";s:2:"st";s:6:"stable";s:1:"l";s:15:"New BSD License";s:1:"m";s:5:"dufuz";s:1:"s";s:108:"The plugins for PEAR_PackageFileManager to pick up what files to use, supported are File, CVS, SVN, Perforce";s:1:"d";s:205:"The plugins for PEAR_PackageFileManager to pick up what files to use.
+Supported are
+* File
+* CVS
+* SVN
+* Perforce
+
+This package is to be used with PackageFileManager v1 and v2 and can't be used on it's own";s:2:"da";s:19:"2011-03-28 04:23:59";s:1:"n";s:198:"* Fixed Bug #17462: SVN entries file regression (Applies to CVS as well) [dufuz]
+* Fixed Bug #18033: _getRegExpableSearchString() in File.php causes issue with paths (Applies to CVS as well) [dufuz]";s:1:"f";s:5:"20240";s:1:"g";s:61:"http://pear.php.net/get/PEAR_PackageFileManager_Plugins-1.0.2";s:1:"x";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:17:"package.1.0.2.xml";}}}

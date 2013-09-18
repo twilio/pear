@@ -1,0 +1,21 @@
+a:16:{s:7:"attribs";a:4:{s:5:"xmlns";s:37:"http://pear.php.net/dtd/rest.release2";s:9:"xmlns:xsi";s:41:"http://www.w3.org/2001/XMLSchema-instance";s:11:"xmlns:xlink";s:28:"http://www.w3.org/1999/xlink";s:18:"xsi:schemaLocation";s:83:"http://pear.php.net/dtd/rest.release2     http://pear.php.net/dtd/rest.release2.xsd";}s:1:"p";a:2:{s:7:"attribs";a:1:{s:10:"xlink:href";s:32:"/rest/p/pear_packagefilemanager2";}s:8:"_content";s:24:"PEAR_PackageFileManager2";}s:1:"c";s:12:"pear.php.net";s:1:"v";s:5:"1.0.2";s:1:"a";s:5:"1.0.0";s:2:"mp";s:5:"4.3.0";s:2:"st";s:6:"stable";s:1:"l";s:15:"New BSD License";s:1:"m";s:5:"dufuz";s:1:"s";s:111:"PEAR_PackageFileManager2 takes an existing v2 package.xml file and updates it with a new filelist and changelog";s:1:"d";s:1181:"This package revolutionizes the maintenance of PEAR packages.  With a few parameters,
+the entire v2 package.xml is automatically updated with a listing of all files in a package.
+Features include
+ - manages the new package.xml 2.0 format in PEAR 1.4.0
+ - can detect PHP and extension dependencies using PHP_CompatInfo
+ - reads in an existing package.xml file, and only changes the release/changelog
+ - a plugin system for retrieving files in a directory.  Currently four plugins
+   exist, one for standard recursive directory content listing, one that
+   reads the CVS/Entries files and generates a file listing based on the contents
+   of a checked out CVS repository, one that reads Subversion entries files, and
+   one that queries a Perforce repository.
+ - incredibly flexible options for assigning install roles to files/directories
+ - ability to ignore any file based on a * ? wildcard-enabled string(s)
+ - ability to include only files that match a * ? wildcard-enabled string(s)
+ - ability to manage dependencies
+ - can output the package.xml in any directory, and read in the package.xml
+   file from any directory.
+ - can specify a different name for the package.xml file";s:2:"da";s:19:"2011-03-28 04:24:25";s:1:"n";s:333:"* Fixed Bug #16406: addReplacement does not look for files in packagedirectory [patch by Sune Jensen, dufuz]
+* Fixed Bug #17451: Misleading error message about PHP_Compat/PHP_CompatInfo [dufuz]
+* Fixed Bug #17990: PHP Notice: Undefined index: date in PackageFileManager2.php [dufuz]
+* Directory "scripts" is now mapped to role script";s:1:"f";s:5:"43251";s:1:"g";s:54:"http://pear.php.net/get/PEAR_PackageFileManager2-1.0.2";s:1:"x";a:1:{s:7:"attribs";a:1:{s:10:"xlink:href";s:17:"package.1.0.2.xml";}}}

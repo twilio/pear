@@ -1,0 +1,1 @@
+s:294:"a:2:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"4.3.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.8.0";}s:7:"package";a:3:{s:4:"name";s:14:"XML_Serializer";s:7:"channel";s:12:"pear.php.net";s:3:"min";s:6:"0.19.0";}}s:8:"optional";a:1:{s:9:"extension";a:1:{s:4:"name";s:9:"simplexml";}}}";

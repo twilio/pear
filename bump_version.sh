@@ -9,7 +9,7 @@ fi
 VERSION="$1";
 GZIPPED_REPO="Services_Twilio-$VERSION.tgz"
 
-pushd ../php-helper;
+pushd ../twilio-php;
     php package.php > package.xml;
     pear package;
     cp $GZIPPED_REPO ../pear;
@@ -19,6 +19,6 @@ pirum add . $GZIPPED_REPO;
 rm -f $GZIPPED_REPO;
 
 git add .;
-git ci -m "Bump PEAR library version to $VERSION"
+git commit -m "Bump PEAR library version to $VERSION"
 
 echo "New version added to the repository. Push to Github to update PEAR:\n\n\tgit push origin gh-pages"

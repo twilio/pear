@@ -15,7 +15,7 @@ applications against Twilio's REST API and generate TwiML responses.</d>
     <n>
 Fixes issue with string representation of resources
  </n>
-    <f>636517</f>
+    <f>222039</f>
     <g>http://twilio.github.com/pear/get/Services_Twilio-3.12.2</g>
     <x xlink:href="package.3.12.2.xml"/>
 </r>

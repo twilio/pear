@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://twilio.github.com/pear</id>
-    <updated>2014-01-25T00:12:49+00:00</updated>
+    <updated>2014-01-29T00:27:14+00:00</updated>
     <title>twilio's PEAR Channel Server Latest Releases</title>
     <link href="http://twilio.github.com/pear/feed.xml" rel="self" />
     <author>
@@ -9,6 +9,21 @@
     </author>
 
     <entry>
+        <title>Services_Twilio 3.12.3 (stable)</title>
+        <link href="http://twilio.github.com/pear/get/Services_Twilio-3.12.3.tgz" />
+        <id>http://twilio.github.com/pear/get/Services_Twilio-3.12.3.tgz</id>
+        <author>
+            <name>kevinburke</name>
+        </author>
+        <updated>2014-01-29T00:27:12+00:00</updated>
+        <content>
+            A SDK (or helper library, as we're calling them) for PHP developers to write
+applications against Twilio's REST API and generate TwiML responses.
+            
+Add transcription link to recordings
+ 
+        </content>
+    </entry>    <entry>
         <title>Services_Twilio 3.12.2 (stable)</title>
         <link href="http://twilio.github.com/pear/get/Services_Twilio-3.12.2.tgz" />
         <id>http://twilio.github.com/pear/get/Services_Twilio-3.12.2.tgz</id>

@@ -3,6 +3,11 @@
     <p>Services_Twilio</p>
     <c>twilio.github.com/pear</c>
     <r>
+        <v>3.12.3</v>
+        <s>stable</s>
+        <m>5.2.1</m>
+    </r>
+    <r>
         <v>3.12.2</v>
         <s>stable</s>
         <m>5.2.1</m>

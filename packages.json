@@ -1,6 +1,45 @@
 {
     "pear-twilio\/Services_Twilio": {
         "versions": {
+            "3.12.3": {
+                "name": "pear-twilio\/Services_Twilio",
+                "description": "PHP helper library for Twilio",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/twilio.github.com\/pear\/get\/Services_Twilio-3.12.3.tgz"
+                },
+                "version": "3.12.3",
+                "time": "2014-01-29T00:27:12+00:00",
+                "require": {
+                    "php": ">=5.2.1"
+                },
+                "suggest": {
+                    "pear-deepend\/Mockery": "*"
+                },
+                "authors": [
+                    {
+                        "name": "Neuman Vong",
+                        "email": "neuman+pear@twilio.com",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Kyle Conroy",
+                        "email": "kyle+pear@twilio.com",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Kevin Burke",
+                        "email": "kevin@twilio.com",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": {
+                        "0": "Services",
+                        "77": "tmp\/testclient.php"
+                    }
+                }
+            },
             "3.12.2": {
                 "name": "pear-twilio\/Services_Twilio",
                 "description": "PHP helper library for Twilio",

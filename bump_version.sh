@@ -9,6 +9,9 @@ fi
 VERSION="$1";
 GZIPPED_REPO="Services_Twilio-$VERSION.tgz"
 
+# Ensure you have the latest version locally.
+git pull origin gh-pages
+
 pushd ../twilio-php;
     php package.php > package.xml;
     pear package;

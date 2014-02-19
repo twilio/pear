@@ -3,7 +3,7 @@
     <pi>
         <p>
             <n>Services_Twilio</n>
-            <c>twilio.github.com/pear</c>
+            <c>twilio.github.io/pear</c>
             <ca xlink:href="/rest/c/Default">Default</ca>
             <l>MIT License</l>
             <s>PHP helper library for Twilio</s>

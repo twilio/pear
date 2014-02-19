@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
     <p xlink:href="/rest/p/services_twilio">Services_Twilio</p>
-    <c>twilio.github.com/pear</c>
+    <c>twilio.github.io/pear</c>
     <v>3.8.1</v>
     <st>stable</st>
     <l>MIT License</l>
@@ -14,6 +14,6 @@ applications against Twilio's REST API and generate TwiML responses.</d>
 Add count() and getNumber() convenience functions
  </n>
     <f>488755</f>
-    <g>http://twilio.github.com/pear/get/Services_Twilio-3.8.1</g>
+    <g>http://twilio.github.io/pear/get/Services_Twilio-3.8.1</g>
     <x xlink:href="package.3.8.1.xml"/>
 </r>

@@ -4,6 +4,6 @@
 # Author: Kevin Burke <kevin@twilio.com>
 
 pear channel-discover pear.pirum-project.org
-pear channel-discover twilio.github.com/pear
+pear channel-discover twilio.github.io/pear
 pear install XML_Serializer-0.20.2 PEAR_PackageFileManager_Plugins PEAR_PackageFileManager2
 pear install pirum/Pirum

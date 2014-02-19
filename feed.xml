@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://twilio.github.com/pear</id>
+    <id>http://twilio.github.io/pear</id>
     <updated>2014-01-30T15:56:41+00:00</updated>
     <title>twilio's PEAR Channel Server Latest Releases</title>
-    <link href="http://twilio.github.com/pear/feed.xml" rel="self" />
+    <link href="http://twilio.github.io/pear/feed.xml" rel="self" />
     <author>
-        <name>http://twilio.github.com/pear</name>
+        <name>http://twilio.github.io/pear</name>
     </author>
 
     <entry>
         <title>Services_Twilio 3.12.4 (stable)</title>
-        <link href="http://twilio.github.com/pear/get/Services_Twilio-3.12.4.tgz" />
-        <id>http://twilio.github.com/pear/get/Services_Twilio-3.12.4.tgz</id>
+        <link href="http://twilio.github.io/pear/get/Services_Twilio-3.12.4.tgz" />
+        <id>http://twilio.github.io/pear/get/Services_Twilio-3.12.4.tgz</id>
         <author>
             <name>kevinburke</name>
         </author>
@@ -25,8 +25,8 @@ Add transcription link to recordings
         </content>
     </entry>    <entry>
         <title>Services_Twilio 3.12.3 (stable)</title>
-        <link href="http://twilio.github.com/pear/get/Services_Twilio-3.12.3.tgz" />
-        <id>http://twilio.github.com/pear/get/Services_Twilio-3.12.3.tgz</id>
+        <link href="http://twilio.github.io/pear/get/Services_Twilio-3.12.3.tgz" />
+        <id>http://twilio.github.io/pear/get/Services_Twilio-3.12.3.tgz</id>
         <author>
             <name>kevinburke</name>
         </author>
@@ -40,8 +40,8 @@ Add transcription link to recordings
         </content>
     </entry>    <entry>
         <title>Services_Twilio 3.12.2 (stable)</title>
-        <link href="http://twilio.github.com/pear/get/Services_Twilio-3.12.2.tgz" />
-        <id>http://twilio.github.com/pear/get/Services_Twilio-3.12.2.tgz</id>
+        <link href="http://twilio.github.io/pear/get/Services_Twilio-3.12.2.tgz" />
+        <id>http://twilio.github.io/pear/get/Services_Twilio-3.12.2.tgz</id>
         <author>
             <name>kevinburke</name>
         </author>
@@ -55,8 +55,8 @@ Fixes issue with string representation of resources
         </content>
     </entry>    <entry>
         <title>Services_Twilio 3.12.1 (stable)</title>
-        <link href="http://twilio.github.com/pear/get/Services_Twilio-3.12.1.tgz" />
-        <id>http://twilio.github.com/pear/get/Services_Twilio-3.12.1.tgz</id>
+        <link href="http://twilio.github.io/pear/get/Services_Twilio-3.12.1.tgz" />
+        <id>http://twilio.github.io/pear/get/Services_Twilio-3.12.1.tgz</id>
         <author>
             <name>kevinburke</name>
         </author>
@@ -70,8 +70,8 @@ Support for /Mobile endpoint
         </content>
     </entry>    <entry>
         <title>Services_Twilio 3.12.0 (stable)</title>
-        <link href="http://twilio.github.com/pear/get/Services_Twilio-3.12.0.tgz" />
-        <id>http://twilio.github.com/pear/get/Services_Twilio-3.12.0.tgz</id>
+        <link href="http://twilio.github.io/pear/get/Services_Twilio-3.12.0.tgz" />
+        <id>http://twilio.github.io/pear/get/Services_Twilio-3.12.0.tgz</id>
         <author>
             <name>kevinburke</name>
         </author>
@@ -85,8 +85,8 @@ Add support for MMS and Sip In
         </content>
     </entry>    <entry>
         <title>Services_Twilio 3.10.0 (stable)</title>
-        <link href="http://twilio.github.com/pear/get/Services_Twilio-3.10.0.tgz" />
-        <id>http://twilio.github.com/pear/get/Services_Twilio-3.10.0.tgz</id>
+        <link href="http://twilio.github.io/pear/get/Services_Twilio-3.10.0.tgz" />
+        <id>http://twilio.github.io/pear/get/Services_Twilio-3.10.0.tgz</id>
         <author>
             <name>kevinburke</name>
         </author>
@@ -100,8 +100,8 @@ Use HTTP status code for error reporting
         </content>
     </entry>    <entry>
         <title>Services_Twilio 3.9.1 (stable)</title>
-        <link href="http://twilio.github.com/pear/get/Services_Twilio-3.9.1.tgz" />
-        <id>http://twilio.github.com/pear/get/Services_Twilio-3.9.1.tgz</id>
+        <link href="http://twilio.github.io/pear/get/Services_Twilio-3.9.1.tgz" />
+        <id>http://twilio.github.io/pear/get/Services_Twilio-3.9.1.tgz</id>
         <author>
             <name>kevinburke</name>
         </author>
@@ -115,8 +115,8 @@ Add $last_response attribute to the $client
         </content>
     </entry>    <entry>
         <title>Services_Twilio 3.9.0 (stable)</title>
-        <link href="http://twilio.github.com/pear/get/Services_Twilio-3.9.0.tgz" />
-        <id>http://twilio.github.com/pear/get/Services_Twilio-3.9.0.tgz</id>
+        <link href="http://twilio.github.io/pear/get/Services_Twilio-3.9.0.tgz" />
+        <id>http://twilio.github.io/pear/get/Services_Twilio-3.9.0.tgz</id>
         <author>
             <name>kevinburke</name>
         </author>
@@ -130,8 +130,8 @@ Fix TwiML generation for non-ASCII characters
         </content>
     </entry>    <entry>
         <title>Services_Twilio 3.8.3 (stable)</title>
-        <link href="http://twilio.github.com/pear/get/Services_Twilio-3.8.3.tgz" />
-        <id>http://twilio.github.com/pear/get/Services_Twilio-3.8.3.tgz</id>
+        <link href="http://twilio.github.io/pear/get/Services_Twilio-3.8.3.tgz" />
+        <id>http://twilio.github.io/pear/get/Services_Twilio-3.8.3.tgz</id>
         <author>
             <name>kevinburke</name>
         </author>
@@ -145,8 +145,8 @@ Fix the ShortCode resource
         </content>
     </entry>    <entry>
         <title>Services_Twilio 3.8.2 (stable)</title>
-        <link href="http://twilio.github.com/pear/get/Services_Twilio-3.8.2.tgz" />
-        <id>http://twilio.github.com/pear/get/Services_Twilio-3.8.2.tgz</id>
+        <link href="http://twilio.github.io/pear/get/Services_Twilio-3.8.2.tgz" />
+        <id>http://twilio.github.io/pear/get/Services_Twilio-3.8.2.tgz</id>
         <author>
             <name>kevinburke</name>
         </author>
@@ -160,8 +160,8 @@ Fix an issue where you could not iterate over members of a queue
         </content>
     </entry>    <entry>
         <title>Services_Twilio 3.8.1 (stable)</title>
-        <link href="http://twilio.github.com/pear/get/Services_Twilio-3.8.1.tgz" />
-        <id>http://twilio.github.com/pear/get/Services_Twilio-3.8.1.tgz</id>
+        <link href="http://twilio.github.io/pear/get/Services_Twilio-3.8.1.tgz" />
+        <id>http://twilio.github.io/pear/get/Services_Twilio-3.8.1.tgz</id>
         <author>
             <name>kevinburke</name>
         </author>
@@ -175,8 +175,8 @@ Add count() and getNumber() convenience functions
         </content>
     </entry>    <entry>
         <title>Services_Twilio 3.8.0 (stable)</title>
-        <link href="http://twilio.github.com/pear/get/Services_Twilio-3.8.0.tgz" />
-        <id>http://twilio.github.com/pear/get/Services_Twilio-3.8.0.tgz</id>
+        <link href="http://twilio.github.io/pear/get/Services_Twilio-3.8.0.tgz" />
+        <id>http://twilio.github.io/pear/get/Services_Twilio-3.8.0.tgz</id>
         <author>
             <name>luciferous</name>
         </author>
@@ -190,8 +190,8 @@ Support Usage Records and Usage Triggers
         </content>
     </entry>    <entry>
         <title>Services_Twilio 3.7.2 (stable)</title>
-        <link href="http://twilio.github.com/pear/get/Services_Twilio-3.7.2.tgz" />
-        <id>http://twilio.github.com/pear/get/Services_Twilio-3.7.2.tgz</id>
+        <link href="http://twilio.github.io/pear/get/Services_Twilio-3.7.2.tgz" />
+        <id>http://twilio.github.io/pear/get/Services_Twilio-3.7.2.tgz</id>
         <author>
             <name>luciferous</name>
         </author>
@@ -205,8 +205,8 @@ Use a standard CA cert whitelist for SSL validation
         </content>
     </entry>    <entry>
         <title>Services_Twilio 3.7.1 (stable)</title>
-        <link href="http://twilio.github.com/pear/get/Services_Twilio-3.7.1.tgz" />
-        <id>http://twilio.github.com/pear/get/Services_Twilio-3.7.1.tgz</id>
+        <link href="http://twilio.github.io/pear/get/Services_Twilio-3.7.1.tgz" />
+        <id>http://twilio.github.io/pear/get/Services_Twilio-3.7.1.tgz</id>
         <author>
             <name>luciferous</name>
         </author>
@@ -220,8 +220,8 @@ Fix a bug with URI creation in the 3.5.0 release
         </content>
     </entry>    <entry>
         <title>Services_Twilio 3.7.0 (stable)</title>
-        <link href="http://twilio.github.com/pear/get/Services_Twilio-3.7.0.tgz" />
-        <id>http://twilio.github.com/pear/get/Services_Twilio-3.7.0.tgz</id>
+        <link href="http://twilio.github.io/pear/get/Services_Twilio-3.7.0.tgz" />
+        <id>http://twilio.github.io/pear/get/Services_Twilio-3.7.0.tgz</id>
         <author>
             <name>luciferous</name>
         </author>
@@ -235,8 +235,8 @@ Add retry support and better JSON body parsing
         </content>
     </entry>    <entry>
         <title>Services_Twilio 3.6.0 (stable)</title>
-        <link href="http://twilio.github.com/pear/get/Services_Twilio-3.6.0.tgz" />
-        <id>http://twilio.github.com/pear/get/Services_Twilio-3.6.0.tgz</id>
+        <link href="http://twilio.github.io/pear/get/Services_Twilio-3.6.0.tgz" />
+        <id>http://twilio.github.io/pear/get/Services_Twilio-3.6.0.tgz</id>
         <author>
             <name>luciferous</name>
         </author>
@@ -250,8 +250,8 @@ Add support for Queues and Members
         </content>
     </entry>    <entry>
         <title>Services_Twilio 3.5.2 (stable)</title>
-        <link href="http://twilio.github.com/pear/get/Services_Twilio-3.5.2.tgz" />
-        <id>http://twilio.github.com/pear/get/Services_Twilio-3.5.2.tgz</id>
+        <link href="http://twilio.github.io/pear/get/Services_Twilio-3.5.2.tgz" />
+        <id>http://twilio.github.io/pear/get/Services_Twilio-3.5.2.tgz</id>
         <author>
             <name>luciferous</name>
         </author>
@@ -265,8 +265,8 @@ Hotfix for two errors introduced the 3.5.0 release
         </content>
     </entry>    <entry>
         <title>Services_Twilio 3.5.1 (stable)</title>
-        <link href="http://twilio.github.com/pear/get/Services_Twilio-3.5.1.tgz" />
-        <id>http://twilio.github.com/pear/get/Services_Twilio-3.5.1.tgz</id>
+        <link href="http://twilio.github.io/pear/get/Services_Twilio-3.5.1.tgz" />
+        <id>http://twilio.github.io/pear/get/Services_Twilio-3.5.1.tgz</id>
         <author>
             <name>luciferous</name>
         </author>
@@ -280,8 +280,8 @@ Hotfix for an error in the 3.5.0 release
         </content>
     </entry>    <entry>
         <title>Services_Twilio 3.5.0 (stable)</title>
-        <link href="http://twilio.github.com/pear/get/Services_Twilio-3.5.0.tgz" />
-        <id>http://twilio.github.com/pear/get/Services_Twilio-3.5.0.tgz</id>
+        <link href="http://twilio.github.io/pear/get/Services_Twilio-3.5.0.tgz" />
+        <id>http://twilio.github.io/pear/get/Services_Twilio-3.5.0.tgz</id>
         <author>
             <name>luciferous</name>
         </author>
@@ -295,8 +295,8 @@ Support paging using the next_page_uri API parameter
         </content>
     </entry>    <entry>
         <title>Services_Twilio 3.3.2 (stable)</title>
-        <link href="http://twilio.github.com/pear/get/Services_Twilio-3.3.2.tgz" />
-        <id>http://twilio.github.com/pear/get/Services_Twilio-3.3.2.tgz</id>
+        <link href="http://twilio.github.io/pear/get/Services_Twilio-3.3.2.tgz" />
+        <id>http://twilio.github.io/pear/get/Services_Twilio-3.3.2.tgz</id>
         <author>
             <name>luciferous</name>
         </author>
@@ -310,8 +310,8 @@ Short fix to convert boolean true and false to the strings &quot;true&quot; and 
         </content>
     </entry>    <entry>
         <title>Services_Twilio 3.2.3 (stable)</title>
-        <link href="http://twilio.github.com/pear/get/Services_Twilio-3.2.3.tgz" />
-        <id>http://twilio.github.com/pear/get/Services_Twilio-3.2.3.tgz</id>
+        <link href="http://twilio.github.io/pear/get/Services_Twilio-3.2.3.tgz" />
+        <id>http://twilio.github.io/pear/get/Services_Twilio-3.2.3.tgz</id>
         <author>
             <name>luciferous</name>
         </author>
@@ -325,8 +325,8 @@ No release notes.
         </content>
     </entry>    <entry>
         <title>Services_Twilio 3.2.2 (stable)</title>
-        <link href="http://twilio.github.com/pear/get/Services_Twilio-3.2.2.tgz" />
-        <id>http://twilio.github.com/pear/get/Services_Twilio-3.2.2.tgz</id>
+        <link href="http://twilio.github.io/pear/get/Services_Twilio-3.2.2.tgz" />
+        <id>http://twilio.github.io/pear/get/Services_Twilio-3.2.2.tgz</id>
         <author>
             <name>luciferous</name>
         </author>
@@ -340,8 +340,8 @@ No release notes.
         </content>
     </entry>    <entry>
         <title>Services_Twilio 3.2.1 (stable)</title>
-        <link href="http://twilio.github.com/pear/get/Services_Twilio-3.2.1.tgz" />
-        <id>http://twilio.github.com/pear/get/Services_Twilio-3.2.1.tgz</id>
+        <link href="http://twilio.github.io/pear/get/Services_Twilio-3.2.1.tgz" />
+        <id>http://twilio.github.io/pear/get/Services_Twilio-3.2.1.tgz</id>
         <author>
             <name>luciferous</name>
         </author>
@@ -355,8 +355,8 @@ No release notes.
         </content>
     </entry>    <entry>
         <title>Services_Twilio 3.2.0 (stable)</title>
-        <link href="http://twilio.github.com/pear/get/Services_Twilio-3.2.0.tgz" />
-        <id>http://twilio.github.com/pear/get/Services_Twilio-3.2.0.tgz</id>
+        <link href="http://twilio.github.io/pear/get/Services_Twilio-3.2.0.tgz" />
+        <id>http://twilio.github.io/pear/get/Services_Twilio-3.2.0.tgz</id>
         <author>
             <name>luciferous</name>
         </author>
@@ -370,8 +370,8 @@ No release notes.
         </content>
     </entry>    <entry>
         <title>Services_Twilio 3.0.1 (stable)</title>
-        <link href="http://twilio.github.com/pear/get/Services_Twilio-3.0.1.tgz" />
-        <id>http://twilio.github.com/pear/get/Services_Twilio-3.0.1.tgz</id>
+        <link href="http://twilio.github.io/pear/get/Services_Twilio-3.0.1.tgz" />
+        <id>http://twilio.github.io/pear/get/Services_Twilio-3.0.1.tgz</id>
         <author>
             <name>luciferous</name>
         </author>
@@ -385,8 +385,8 @@ No release notes.
         </content>
     </entry>    <entry>
         <title>Services_Twilio 3.0.0 (stable)</title>
-        <link href="http://twilio.github.com/pear/get/Services_Twilio-3.0.0.tgz" />
-        <id>http://twilio.github.com/pear/get/Services_Twilio-3.0.0.tgz</id>
+        <link href="http://twilio.github.io/pear/get/Services_Twilio-3.0.0.tgz" />
+        <id>http://twilio.github.io/pear/get/Services_Twilio-3.0.0.tgz</id>
         <author>
             <name>luciferous</name>
         </author>
@@ -400,8 +400,8 @@ No release notes.
         </content>
     </entry>    <entry>
         <title>Services_Twilio 0.0.3 (beta)</title>
-        <link href="http://twilio.github.com/pear/get/Services_Twilio-0.0.3.tgz" />
-        <id>http://twilio.github.com/pear/get/Services_Twilio-0.0.3.tgz</id>
+        <link href="http://twilio.github.io/pear/get/Services_Twilio-0.0.3.tgz" />
+        <id>http://twilio.github.io/pear/get/Services_Twilio-0.0.3.tgz</id>
         <author>
             <name>luciferous</name>
         </author>

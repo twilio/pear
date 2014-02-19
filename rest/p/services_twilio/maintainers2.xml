@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <m xmlns="http://pear.php.net/dtd/rest.packagemaintainers2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.packagemaintainers2 http://pear.php.net/dtd/rest.packagemaintainers2.xsd">
     <p>Services_Twilio</p>
-    <c>twilio.github.com/pear</c>
+    <c>twilio.github.io/pear</c>
     <m>
         <h>kevinburke</h>
         <a>1</a>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
  <name>Services_Twilio</name>
- <channel>twilio.github.com/pear</channel>
+ <channel>twilio.github.io/pear</channel>
  <summary>PHP helper library for Twilio</summary>
  <description>A SDK (or helper library, as we&apos;re calling them) for PHP developers to write
 applications against Twilio&apos;s REST API and generate TwiML responses.</description>

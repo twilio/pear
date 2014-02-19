@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
+    http://pear.php.net/dtd/tasks-1.0.xsd
+    http://pear.php.net/dtd/package-2.0
+    http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Services_Twilio</name>
+ <channel>twilio.github.io/pear</channel>
+ <summary>PHP helper library for Twilio</summary>
+ <description>A SDK (or helper library, as we&apos;re calling them) for PHP developers to write
+applications against Twilio&apos;s REST API and generate TwiML responses.</description>
+ <lead>
+  <name>Kevin Burke</name>
+  <user>kevinburke</user>
+  <email>kevin@twilio.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2014-02-19</date>
+ <time>21:57:58</time>
+ <version>
+  <release>3.12.4</release>
+  <api>3.12.4</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://creativecommons.org/licenses/MIT/">MIT License</license>
+ <notes>
+Add transcription link to recordings
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <dir name="docs">
+    <dir name="api">
+     <file name="rest.rst" role="data" />
+     <file name="services.rst" role="data" />
+     <file name="twiml.rst" role="data" />
+    </dir> <!-- /docs/api -->
+    <dir name="usage">
+     <dir name="rest">
+      <file name="accounts.rst" role="data" />
+      <file name="applications.rst" role="data" />
+      <file name="callerids.rst" role="data" />
+      <file name="calls.rst" role="data" />
+      <file name="conferences.rst" role="data" />
+      <file name="members.rst" role="data" />
+      <file name="messages.rst" role="data" />
+      <file name="notifications.rst" role="data" />
+      <file name="phonenumbers.rst" role="data" />
+      <file name="queues.rst" role="data" />
+      <file name="recordings.rst" role="data" />
+      <file name="sip.rst" role="data" />
+      <file name="sms-messages.rst" role="data" />
+      <file name="transcriptions.rst" role="data" />
+      <file name="usage-records.rst" role="data" />
+      <file name="usage-triggers.rst" role="data" />
+     </dir> <!-- /docs/usage/rest -->
+     <file name="rest.rst" role="data" />
+     <file name="token-generation.rst" role="data" />
+     <file name="twiml.rst" role="data" />
+     <file name="validation.rst" role="data" />
+    </dir> <!-- /docs/usage -->
+    <dir name="_build">
+     <dir name="doctrees">
+      <dir name="_themes">
+       <file name="README.doctree" role="data" />
+      </dir> <!-- /docs/_build/doctrees/_themes -->
+      <file name="Accounts.parse" role="data" />
+      <file name="CredentialListMappings.parse" role="data" />
+      <file name="ListResource.parse" role="data" />
+     </dir> <!-- /docs/_build/doctrees -->
+    </dir> <!-- /docs/_build -->
+    <dir name="_themes">
+     <dir name="kr">
+      <dir name="static">
+       <file name="flasky.css_t" role="data" />
+       <file name="small_flask.css" role="data" />
+      </dir> <!-- /docs/_themes/kr/static -->
+      <file name="layout.html" role="doc" />
+      <file name="relations.html" role="doc" />
+      <file name="theme.conf" role="data" />
+     </dir> <!-- /docs/_themes/kr -->
+     <dir name="kr_small">
+      <dir name="static">
+       <file name="flasky.css_t" role="data" />
+      </dir> <!-- /docs/_themes/kr_small/static -->
+      <file name="layout.html" role="doc" />
+      <file name="theme.conf" role="data" />
+     </dir> <!-- /docs/_themes/kr_small -->
+     <file name="flask_theme_support.py" role="data" />
+     <file name="LICENSE" role="data" />
+     <file name="README.rst" role="data" />
+    </dir> <!-- /docs/_themes -->
+    <file name="conf.py" role="data" />
+    <file name="faq.rst" role="data" />
+    <file name="index.rst" role="data" />
+    <file name="Makefile" role="data" />
+    <file name="quickstart.rst" role="data" />
+    <file name="requirements.txt" role="data" />
+   </dir> <!-- /docs -->
+   <dir name="Services">
+    <dir name="Twilio">
+     <dir name="Rest">
+      <file name="Account.php" role="php" />
+      <file name="Accounts.php" role="php" />
+      <file name="Application.php" role="php" />
+      <file name="Applications.php" role="php" />
+      <file name="AuthorizedConnectApp.php" role="php" />
+      <file name="AuthorizedConnectApps.php" role="php" />
+      <file name="AvailablePhoneNumber.php" role="php" />
+      <file name="AvailablePhoneNumbers.php" role="php" />
+      <file name="Call.php" role="php" />
+      <file name="Calls.php" role="php" />
+      <file name="Conference.php" role="php" />
+      <file name="Conferences.php" role="php" />
+      <file name="ConnectApp.php" role="php" />
+      <file name="ConnectApps.php" role="php" />
+      <file name="Credential.php" role="php" />
+      <file name="CredentialList.php" role="php" />
+      <file name="CredentialListMapping.php" role="php" />
+      <file name="CredentialListMappings.php" role="php" />
+      <file name="CredentialLists.php" role="php" />
+      <file name="Credentials.php" role="php" />
+      <file name="Domain.php" role="php" />
+      <file name="Domains.php" role="php" />
+      <file name="IncomingPhoneNumber.php" role="php" />
+      <file name="IncomingPhoneNumbers.php" role="php" />
+      <file name="IpAccessControlList.php" role="php" />
+      <file name="IpAccessControlListMapping.php" role="php" />
+      <file name="IpAccessControlListMappings.php" role="php" />
+      <file name="IpAccessControlLists.php" role="php" />
+      <file name="IpAddress.php" role="php" />
+      <file name="IpAddresses.php" role="php" />
+      <file name="Media.php" role="php" />
+      <file name="MediaInstance.php" role="php" />
+      <file name="Member.php" role="php" />
+      <file name="Members.php" role="php" />
+      <file name="Message.php" role="php" />
+      <file name="Messages.php" role="php" />
+      <file name="Notification.php" role="php" />
+      <file name="Notifications.php" role="php" />
+      <file name="OutgoingCallerId.php" role="php" />
+      <file name="OutgoingCallerIds.php" role="php" />
+      <file name="Participant.php" role="php" />
+      <file name="Participants.php" role="php" />
+      <file name="Queue.php" role="php" />
+      <file name="Queues.php" role="php" />
+      <file name="Recording.php" role="php" />
+      <file name="Recordings.php" role="php" />
+      <file name="Sandbox.php" role="php" />
+      <file name="ShortCode.php" role="php" />
+      <file name="ShortCodes.php" role="php" />
+      <file name="Sip.php" role="php" />
+      <file name="SmsMessage.php" role="php" />
+      <file name="SmsMessages.php" role="php" />
+      <file name="Transcription.php" role="php" />
+      <file name="Transcriptions.php" role="php" />
+      <file name="UsageRecord.php" role="php" />
+      <file name="UsageRecords.php" role="php" />
+      <file name="UsageTrigger.php" role="php" />
+      <file name="UsageTriggers.php" role="php" />
+     </dir> <!-- /Services/Twilio/Rest -->
+     <file name="AutoPagingIterator.php" role="php" />
+     <file name="Capability.php" role="php" />
+     <file name="HttpException.php" role="php" />
+     <file name="HttpStream.php" role="php" />
+     <file name="InstanceResource.php" role="php" />
+     <file name="ListResource.php" role="php" />
+     <file name="NumberType.php" role="php" />
+     <file name="Page.php" role="php" />
+     <file name="PartialApplicationHelper.php" role="php" />
+     <file name="RequestValidator.php" role="php" />
+     <file name="Resource.php" role="php" />
+     <file name="RestException.php" role="php" />
+     <file name="SIPListResource.php" role="php" />
+     <file name="TimeRangeResource.php" role="php" />
+     <file name="TinyHttp.php" role="php" />
+     <file name="Twiml.php" role="php" />
+     <file name="UsageResource.php" role="php" />
+    </dir> <!-- /Services/Twilio -->
+    <file name="cacert.pem" role="php" />
+    <file name="Twilio.php" role="php" />
+   </dir> <!-- /Services -->
+   <dir name="tests">
+    <dir name="resources">
+     <file name="AccountsTest.php" role="test" />
+     <file name="ApplicationsTest.php" role="test" />
+     <file name="AvailablePhoneNumbersTest.php" role="test" />
+     <file name="CallsTest.php" role="test" />
+     <file name="ConnectAppsTest.php" role="test" />
+     <file name="IncomingPhoneNumbersTest.php" role="test" />
+     <file name="MediaTest.php" role="test" />
+     <file name="MembersTest.php" role="test" />
+     <file name="MessagesTest.php" role="test" />
+     <file name="NotificationTest.php" role="test" />
+     <file name="OutgoingCallerIdsTest.php" role="test" />
+     <file name="QueuesTest.php" role="test" />
+     <file name="SandboxTest.php" role="test" />
+     <file name="ShortCodesTest.php" role="test" />
+     <file name="SMSMessagesTest.php" role="test" />
+     <file name="UsageRecordsTest.php" role="test" />
+     <file name="UsageTriggersTest.php" role="test" />
+    </dir> <!-- /tests/resources -->
+    <file name="Bootstrap.php" role="test" />
+    <file name="BuildQueryTest.php" role="test" />
+    <file name="CapabilityTest.php" role="test" />
+    <file name="phpunit.xml" role="test" />
+    <file name="README" role="test" />
+    <file name="RequestValidatorTest.php" role="test" />
+    <file name="TwilioTest.php" role="test" />
+    <file name="TwimlTest.php" role="test" />
+   </dir> <!-- /tests -->
+   <file name="AUTHORS.md" role="data" />
+   <file name="CHANGES.md" role="data" />
+   <file name="LICENSE" role="data" />
+   <file name="Makefile" role="data" />
+   <file name="README.md" role="data" />
+  </dir> <!-- / -->
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.2.1</min>
+   </php>
+   <pearinstaller>
+    <min>1.9.3</min>
+   </pearinstaller>
+  </required>
+  <optional>
+   <package>
+    <name>Mockery</name>
+    <channel>pear.survivethedeepend.com</channel>
+   </package>
+  </optional>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>3.12.2</release>
+    <api>3.12.2</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2014-01-25</date>
+   <license uri="http://creativecommons.org/licenses/MIT/">MIT License</license>
+   <notes>
+Fixes issue with string representation of resources
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>3.12.4</release>
+    <api>3.12.4</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2014-02-19</date>
+   <license uri="http://creativecommons.org/licenses/MIT/">MIT License</license>
+   <notes>
+Add transcription link to recordings
+   </notes>
+  </release>
+ </changelog>
+</package>

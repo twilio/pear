@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://twilio.github.io/pear</id>
-    <updated>2014-02-19T22:01:21+00:00</updated>
+    <updated>2014-07-15T10:49:20-07:00</updated>
     <title>twilio's PEAR Channel Server Latest Releases</title>
     <link href="http://twilio.github.io/pear/feed.xml" rel="self" />
     <author>
@@ -9,13 +9,28 @@
     </author>
 
     <entry>
+        <title>Services_Twilio 3.12.5 (stable)</title>
+        <link href="http://twilio.github.io/pear/get/Services_Twilio-3.12.5.tgz" />
+        <id>http://twilio.github.io/pear/get/Services_Twilio-3.12.5.tgz</id>
+        <author>
+            <name>ihumanable</name>
+        </author>
+        <updated>2014-07-15T17:49:17-07:00</updated>
+        <content>
+            A SDK (or helper library, as we're calling them) for PHP developers to write
+applications against Twilio's REST API and generate TwiML responses.
+            
+Make SIP class PSR-0 compliant
+ 
+        </content>
+    </entry>    <entry>
         <title>Services_Twilio 3.12.4 (stable)</title>
         <link href="http://twilio.github.io/pear/get/Services_Twilio-3.12.4.tgz" />
         <id>http://twilio.github.io/pear/get/Services_Twilio-3.12.4.tgz</id>
         <author>
             <name>kevinburke</name>
         </author>
-        <updated>2014-01-30T15:56:39+00:00</updated>
+        <updated>2014-01-30T15:56:39-08:00</updated>
         <content>
             A SDK (or helper library, as we're calling them) for PHP developers to write
 applications against Twilio's REST API and generate TwiML responses.
@@ -30,7 +45,7 @@ Add transcription link to recordings
         <author>
             <name>kevinburke</name>
         </author>
-        <updated>2014-01-29T00:27:12+00:00</updated>
+        <updated>2014-01-29T00:27:12-08:00</updated>
         <content>
             A SDK (or helper library, as we're calling them) for PHP developers to write
 applications against Twilio's REST API and generate TwiML responses.
@@ -45,7 +60,7 @@ Add transcription link to recordings
         <author>
             <name>kevinburke</name>
         </author>
-        <updated>2014-01-06T18:08:03+00:00</updated>
+        <updated>2014-01-06T18:08:03-08:00</updated>
         <content>
             A SDK (or helper library, as we're calling them) for PHP developers to write
 applications against Twilio's REST API and generate TwiML responses.
@@ -60,7 +75,7 @@ Fixes issue with string representation of resources
         <author>
             <name>kevinburke</name>
         </author>
-        <updated>2013-10-23T21:12:17+00:00</updated>
+        <updated>2013-10-23T21:12:17-07:00</updated>
         <content>
             A SDK (or helper library, as we're calling them) for PHP developers to write
 applications against Twilio's REST API and generate TwiML responses.
@@ -75,7 +90,7 @@ Support for /Mobile endpoint
         <author>
             <name>kevinburke</name>
         </author>
-        <updated>2013-09-18T18:07:32+00:00</updated>
+        <updated>2013-09-18T18:07:32-07:00</updated>
         <content>
             A SDK (or helper library, as we're calling them) for PHP developers to write
 applications against Twilio's REST API and generate TwiML responses.
@@ -90,7 +105,7 @@ Add support for MMS and Sip In
         <author>
             <name>kevinburke</name>
         </author>
-        <updated>2013-02-02T20:04:44+00:00</updated>
+        <updated>2013-02-02T20:04:44-08:00</updated>
         <content>
             A SDK (or helper library, as we're calling them) for PHP developers to write
 applications against Twilio's REST API and generate TwiML responses.
@@ -105,7 +120,7 @@ Use HTTP status code for error reporting
         <author>
             <name>kevinburke</name>
         </author>
-        <updated>2012-12-30T08:19:44+00:00</updated>
+        <updated>2012-12-30T08:19:44-08:00</updated>
         <content>
             A SDK (or helper library, as we're calling them) for PHP developers to write
 applications against Twilio's REST API and generate TwiML responses.
@@ -120,7 +135,7 @@ Add $last_response attribute to the $client
         <author>
             <name>kevinburke</name>
         </author>
-        <updated>2012-12-20T19:18:52+00:00</updated>
+        <updated>2012-12-20T19:18:52-08:00</updated>
         <content>
             A SDK (or helper library, as we're calling them) for PHP developers to write
 applications against Twilio's REST API and generate TwiML responses.
@@ -135,7 +150,7 @@ Fix TwiML generation for non-ASCII characters
         <author>
             <name>kevinburke</name>
         </author>
-        <updated>2012-12-15T08:07:26+00:00</updated>
+        <updated>2012-12-15T08:07:26-08:00</updated>
         <content>
             A SDK (or helper library, as we're calling them) for PHP developers to write
 applications against Twilio's REST API and generate TwiML responses.
@@ -150,7 +165,7 @@ Fix the ShortCode resource
         <author>
             <name>kevinburke</name>
         </author>
-        <updated>2012-11-27T05:40:22+00:00</updated>
+        <updated>2012-11-27T05:40:22-08:00</updated>
         <content>
             A SDK (or helper library, as we're calling them) for PHP developers to write
 applications against Twilio's REST API and generate TwiML responses.
@@ -165,7 +180,7 @@ Fix an issue where you could not iterate over members of a queue
         <author>
             <name>kevinburke</name>
         </author>
-        <updated>2012-11-24T07:40:02+00:00</updated>
+        <updated>2012-11-24T07:40:02-08:00</updated>
         <content>
             A SDK (or helper library, as we're calling them) for PHP developers to write
 applications against Twilio's REST API and generate TwiML responses.
@@ -180,7 +195,7 @@ Add count() and getNumber() convenience functions
         <author>
             <name>luciferous</name>
         </author>
-        <updated>2012-10-17T17:19:37+00:00</updated>
+        <updated>2012-10-17T17:19:37-07:00</updated>
         <content>
             A SDK (or helper library, as we're calling them) for PHP developers to write
 applications against Twilio's REST API and generate TwiML responses.
@@ -195,7 +210,7 @@ Support Usage Records and Usage Triggers
         <author>
             <name>luciferous</name>
         </author>
-        <updated>2012-09-13T17:14:51+00:00</updated>
+        <updated>2012-09-13T17:14:51-07:00</updated>
         <content>
             A SDK (or helper library, as we're calling them) for PHP developers to write
 applications against Twilio's REST API and generate TwiML responses.
@@ -210,7 +225,7 @@ Use a standard CA cert whitelist for SSL validation
         <author>
             <name>luciferous</name>
         </author>
-        <updated>2012-08-16T19:53:43+00:00</updated>
+        <updated>2012-08-16T19:53:43-07:00</updated>
         <content>
             A SDK (or helper library, as we're calling them) for PHP developers to write
 applications against Twilio's REST API and generate TwiML responses.
@@ -225,7 +240,7 @@ Fix a bug with URI creation in the 3.5.0 release
         <author>
             <name>luciferous</name>
         </author>
-        <updated>2012-08-06T08:11:09+00:00</updated>
+        <updated>2012-08-06T08:11:09-07:00</updated>
         <content>
             A SDK (or helper library, as we're calling them) for PHP developers to write
 applications against Twilio's REST API and generate TwiML responses.
@@ -240,7 +255,7 @@ Add retry support and better JSON body parsing
         <author>
             <name>luciferous</name>
         </author>
-        <updated>2012-08-05T22:43:56+00:00</updated>
+        <updated>2012-08-05T22:43:56-07:00</updated>
         <content>
             A SDK (or helper library, as we're calling them) for PHP developers to write
 applications against Twilio's REST API and generate TwiML responses.
@@ -255,7 +270,7 @@ Add support for Queues and Members
         <author>
             <name>luciferous</name>
         </author>
-        <updated>2012-07-23T21:51:37+00:00</updated>
+        <updated>2012-07-23T21:51:37-07:00</updated>
         <content>
             A SDK (or helper library, as we're calling them) for PHP developers to write
 applications against Twilio's REST API and generate TwiML responses.
@@ -270,7 +285,7 @@ Hotfix for two errors introduced the 3.5.0 release
         <author>
             <name>luciferous</name>
         </author>
-        <updated>2012-07-03T02:08:08+00:00</updated>
+        <updated>2012-07-03T02:08:08-07:00</updated>
         <content>
             A SDK (or helper library, as we're calling them) for PHP developers to write
 applications against Twilio's REST API and generate TwiML responses.
@@ -285,7 +300,7 @@ Hotfix for an error in the 3.5.0 release
         <author>
             <name>luciferous</name>
         </author>
-        <updated>2012-06-30T08:05:51+00:00</updated>
+        <updated>2012-06-30T08:05:51-07:00</updated>
         <content>
             A SDK (or helper library, as we're calling them) for PHP developers to write
 applications against Twilio's REST API and generate TwiML responses.
@@ -300,7 +315,7 @@ Support paging using the next_page_uri API parameter
         <author>
             <name>luciferous</name>
         </author>
-        <updated>2012-05-29T17:47:28+00:00</updated>
+        <updated>2012-05-29T17:47:28-07:00</updated>
         <content>
             A SDK (or helper library, as we're calling them) for PHP developers to write
 applications against Twilio's REST API and generate TwiML responses.
@@ -315,7 +330,7 @@ Short fix to convert boolean true and false to the strings &quot;true&quot; and 
         <author>
             <name>luciferous</name>
         </author>
-        <updated>2011-08-23T18:06:18+00:00</updated>
+        <updated>2011-08-23T18:06:18-07:00</updated>
         <content>
             A SDK (or helper library, as we're calling them) for PHP developers to write
 applications against Twilio's REST API and generate TwiML responses.
@@ -330,7 +345,7 @@ No release notes.
         <author>
             <name>luciferous</name>
         </author>
-        <updated>2011-08-04T23:32:40+00:00</updated>
+        <updated>2011-08-04T23:32:40-07:00</updated>
         <content>
             A SDK (or helper library, as we're calling them) for PHP developers to write
 applications against Twilio's REST API and generate TwiML responses.
@@ -345,7 +360,7 @@ No release notes.
         <author>
             <name>luciferous</name>
         </author>
-        <updated>2011-07-30T00:09:59+00:00</updated>
+        <updated>2011-07-30T00:09:59-07:00</updated>
         <content>
             A SDK (or helper library, as we're calling them) for PHP developers to write
 applications against Twilio's REST API and generate TwiML responses.
@@ -360,7 +375,7 @@ No release notes.
         <author>
             <name>luciferous</name>
         </author>
-        <updated>2011-07-26T13:43:05+00:00</updated>
+        <updated>2011-07-26T13:43:05-07:00</updated>
         <content>
             A SDK (or helper library, as we're calling them) for PHP developers to write
 applications against Twilio's REST API and generate TwiML responses.
@@ -375,7 +390,7 @@ No release notes.
         <author>
             <name>luciferous</name>
         </author>
-        <updated>2011-07-20T23:08:48+00:00</updated>
+        <updated>2011-07-20T23:08:48-07:00</updated>
         <content>
             A SDK (or helper library, as we're calling them) for PHP developers to write
 applications against Twilio's REST API and generate TwiML responses.
@@ -390,7 +405,7 @@ No release notes.
         <author>
             <name>luciferous</name>
         </author>
-        <updated>2011-07-20T01:12:29+00:00</updated>
+        <updated>2011-07-20T01:12:29-07:00</updated>
         <content>
             A SDK (or helper library, as we're calling them) for PHP developers to write
 applications against Twilio's REST API and generate TwiML responses.
@@ -405,7 +420,7 @@ No release notes.
         <author>
             <name>luciferous</name>
         </author>
-        <updated>2011-07-19T00:01:50+00:00</updated>
+        <updated>2011-07-19T00:01:50-07:00</updated>
         <content>
             A SDK (or helper library, as we're calling them) for PHP developers to write
 applications against Twilio's REST API and generate TwiML responses.

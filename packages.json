@@ -1,15 +1,15 @@
 {
     "pear-twilio\/Services_Twilio": {
         "versions": {
-            "3.12.4": {
+            "3.12.5": {
                 "name": "pear-twilio\/Services_Twilio",
                 "description": "PHP helper library for Twilio",
                 "dist": {
                     "type": "pear",
-                    "url": "http:\/\/twilio.github.io\/pear\/get\/Services_Twilio-3.12.4.tgz"
+                    "url": "http:\/\/twilio.github.io\/pear\/get\/Services_Twilio-3.12.5.tgz"
                 },
-                "version": "3.12.4",
-                "time": "2014-01-30T15:56:39+00:00",
+                "version": "3.12.5",
+                "time": "2014-07-15T17:49:17-07:00",
                 "require": {
                     "php": ">=5.2.1"
                 },
@@ -30,6 +30,54 @@
                     {
                         "name": "Kevin Burke",
                         "email": "kevin@twilio.com",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Matt Nowack",
+                        "email": "matt@twilio.com",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "Services"
+                    ]
+                }
+            },
+            "3.12.4": {
+                "name": "pear-twilio\/Services_Twilio",
+                "description": "PHP helper library for Twilio",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/twilio.github.io\/pear\/get\/Services_Twilio-3.12.4.tgz"
+                },
+                "version": "3.12.4",
+                "time": "2014-01-30T15:56:39-08:00",
+                "require": {
+                    "php": ">=5.2.1"
+                },
+                "suggest": {
+                    "pear-deepend\/Mockery": "*"
+                },
+                "authors": [
+                    {
+                        "name": "Neuman Vong",
+                        "email": "neuman+pear@twilio.com",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Kyle Conroy",
+                        "email": "kyle+pear@twilio.com",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Kevin Burke",
+                        "email": "kevin@twilio.com",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Matt Nowack",
+                        "email": "matt@twilio.com",
                         "homepage": ""
                     }
                 ],
@@ -48,7 +96,7 @@
                     "url": "http:\/\/twilio.github.io\/pear\/get\/Services_Twilio-3.12.3.tgz"
                 },
                 "version": "3.12.3",
-                "time": "2014-01-29T00:27:12+00:00",
+                "time": "2014-01-29T00:27:12-08:00",
                 "require": {
                     "php": ">=5.2.1"
                 },
@@ -69,6 +117,11 @@
                     {
                         "name": "Kevin Burke",
                         "email": "kevin@twilio.com",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Matt Nowack",
+                        "email": "matt@twilio.com",
                         "homepage": ""
                     }
                 ],
@@ -87,7 +140,7 @@
                     "url": "http:\/\/twilio.github.io\/pear\/get\/Services_Twilio-3.12.2.tgz"
                 },
                 "version": "3.12.2",
-                "time": "2014-01-06T18:08:03+00:00",
+                "time": "2014-01-06T18:08:03-08:00",
                 "require": {
                     "php": ">=5.2.1"
                 },
@@ -108,6 +161,11 @@
                     {
                         "name": "Kevin Burke",
                         "email": "kevin@twilio.com",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Matt Nowack",
+                        "email": "matt@twilio.com",
                         "homepage": ""
                     }
                 ],
@@ -125,7 +183,7 @@
                     "url": "http:\/\/twilio.github.io\/pear\/get\/Services_Twilio-3.12.1.tgz"
                 },
                 "version": "3.12.1",
-                "time": "2013-10-23T21:12:17+00:00",
+                "time": "2013-10-23T21:12:17-07:00",
                 "require": {
                     "php": ">=5.2.1"
                 },
@@ -146,6 +204,11 @@
                     {
                         "name": "Kevin Burke",
                         "email": "kevin@twilio.com",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Matt Nowack",
+                        "email": "matt@twilio.com",
                         "homepage": ""
                     }
                 ],
@@ -164,7 +227,7 @@
                     "url": "http:\/\/twilio.github.io\/pear\/get\/Services_Twilio-3.12.0.tgz"
                 },
                 "version": "3.12.0",
-                "time": "2013-09-18T18:07:32+00:00",
+                "time": "2013-09-18T18:07:32-07:00",
                 "require": {
                     "php": ">=5.2.1"
                 },
@@ -185,6 +248,11 @@
                     {
                         "name": "Kevin Burke",
                         "email": "kevin@twilio.com",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Matt Nowack",
+                        "email": "matt@twilio.com",
                         "homepage": ""
                     }
                 ],
@@ -202,7 +270,7 @@
                     "url": "http:\/\/twilio.github.io\/pear\/get\/Services_Twilio-3.10.0.tgz"
                 },
                 "version": "3.10.0",
-                "time": "2013-02-02T20:04:44+00:00",
+                "time": "2013-02-02T20:04:44-08:00",
                 "require": {
                     "php": ">=5.2.1"
                 },
@@ -223,6 +291,11 @@
                     {
                         "name": "Kevin Burke",
                         "email": "kevin@twilio.com",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Matt Nowack",
+                        "email": "matt@twilio.com",
                         "homepage": ""
                     }
                 ],
@@ -240,7 +313,7 @@
                     "url": "http:\/\/twilio.github.io\/pear\/get\/Services_Twilio-3.9.1.tgz"
                 },
                 "version": "3.9.1",
-                "time": "2012-12-30T08:19:44+00:00",
+                "time": "2012-12-30T08:19:44-08:00",
                 "require": {
                     "php": ">=5.2.1"
                 },
@@ -261,6 +334,11 @@
                     {
                         "name": "Kevin Burke",
                         "email": "kevin@twilio.com",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Matt Nowack",
+                        "email": "matt@twilio.com",
                         "homepage": ""
                     }
                 ],
@@ -278,7 +356,7 @@
                     "url": "http:\/\/twilio.github.io\/pear\/get\/Services_Twilio-3.9.0.tgz"
                 },
                 "version": "3.9.0",
-                "time": "2012-12-20T19:18:52+00:00",
+                "time": "2012-12-20T19:18:52-08:00",
                 "require": {
                     "php": ">=5.2.1"
                 },
@@ -299,6 +377,11 @@
                     {
                         "name": "Kevin Burke",
                         "email": "kevin@twilio.com",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Matt Nowack",
+                        "email": "matt@twilio.com",
                         "homepage": ""
                     }
                 ],
@@ -316,7 +399,7 @@
                     "url": "http:\/\/twilio.github.io\/pear\/get\/Services_Twilio-3.8.3.tgz"
                 },
                 "version": "3.8.3",
-                "time": "2012-12-15T08:07:26+00:00",
+                "time": "2012-12-15T08:07:26-08:00",
                 "require": {
                     "php": ">=5.2.1"
                 },
@@ -337,6 +420,11 @@
                     {
                         "name": "Kevin Burke",
                         "email": "kevin@twilio.com",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Matt Nowack",
+                        "email": "matt@twilio.com",
                         "homepage": ""
                     }
                 ],
@@ -354,7 +442,7 @@
                     "url": "http:\/\/twilio.github.io\/pear\/get\/Services_Twilio-3.8.2.tgz"
                 },
                 "version": "3.8.2",
-                "time": "2012-11-27T05:40:22+00:00",
+                "time": "2012-11-27T05:40:22-08:00",
                 "require": {
                     "php": ">=5.2.1"
                 },
@@ -375,6 +463,11 @@
                     {
                         "name": "Kevin Burke",
                         "email": "kevin@twilio.com",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Matt Nowack",
+                        "email": "matt@twilio.com",
                         "homepage": ""
                     }
                 ],
@@ -392,7 +485,7 @@
                     "url": "http:\/\/twilio.github.io\/pear\/get\/Services_Twilio-3.8.1.tgz"
                 },
                 "version": "3.8.1",
-                "time": "2012-11-24T07:40:02+00:00",
+                "time": "2012-11-24T07:40:02-08:00",
                 "require": {
                     "php": ">=5.2.1"
                 },
@@ -413,6 +506,11 @@
                     {
                         "name": "Kevin Burke",
                         "email": "kevin@twilio.com",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Matt Nowack",
+                        "email": "matt@twilio.com",
                         "homepage": ""
                     }
                 ],
@@ -430,7 +528,7 @@
                     "url": "http:\/\/twilio.github.io\/pear\/get\/Services_Twilio-3.8.0.tgz"
                 },
                 "version": "3.8.0",
-                "time": "2012-10-17T17:19:37+00:00",
+                "time": "2012-10-17T17:19:37-07:00",
                 "require": {
                     "php": ">=5.2.1"
                 },
@@ -451,6 +549,11 @@
                     {
                         "name": "Kevin Burke",
                         "email": "kevin@twilio.com",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Matt Nowack",
+                        "email": "matt@twilio.com",
                         "homepage": ""
                     }
                 ],
@@ -468,7 +571,7 @@
                     "url": "http:\/\/twilio.github.io\/pear\/get\/Services_Twilio-3.7.2.tgz"
                 },
                 "version": "3.7.2",
-                "time": "2012-09-13T17:14:51+00:00",
+                "time": "2012-09-13T17:14:51-07:00",
                 "require": {
                     "php": ">=5.2.1"
                 },
@@ -489,6 +592,11 @@
                     {
                         "name": "Kevin Burke",
                         "email": "kevin@twilio.com",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Matt Nowack",
+                        "email": "matt@twilio.com",
                         "homepage": ""
                     }
                 ],
@@ -506,7 +614,7 @@
                     "url": "http:\/\/twilio.github.io\/pear\/get\/Services_Twilio-3.7.1.tgz"
                 },
                 "version": "3.7.1",
-                "time": "2012-08-16T19:53:43+00:00",
+                "time": "2012-08-16T19:53:43-07:00",
                 "require": {
                     "php": ">=5.2.1"
                 },
@@ -527,6 +635,11 @@
                     {
                         "name": "Kevin Burke",
                         "email": "kevin@twilio.com",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Matt Nowack",
+                        "email": "matt@twilio.com",
                         "homepage": ""
                     }
                 ],
@@ -545,7 +658,7 @@
                     "url": "http:\/\/twilio.github.io\/pear\/get\/Services_Twilio-3.7.0.tgz"
                 },
                 "version": "3.7.0",
-                "time": "2012-08-06T08:11:09+00:00",
+                "time": "2012-08-06T08:11:09-07:00",
                 "require": {
                     "php": ">=5.2.1"
                 },
@@ -566,6 +679,11 @@
                     {
                         "name": "Kevin Burke",
                         "email": "kevin@twilio.com",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Matt Nowack",
+                        "email": "matt@twilio.com",
                         "homepage": ""
                     }
                 ],
@@ -584,7 +702,7 @@
                     "url": "http:\/\/twilio.github.io\/pear\/get\/Services_Twilio-3.6.0.tgz"
                 },
                 "version": "3.6.0",
-                "time": "2012-08-05T22:43:56+00:00",
+                "time": "2012-08-05T22:43:56-07:00",
                 "require": {
                     "php": ">=5.2.1"
                 },
@@ -605,6 +723,11 @@
                     {
                         "name": "Kevin Burke",
                         "email": "kevin@twilio.com",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Matt Nowack",
+                        "email": "matt@twilio.com",
                         "homepage": ""
                     }
                 ],
@@ -623,7 +746,7 @@
                     "url": "http:\/\/twilio.github.io\/pear\/get\/Services_Twilio-3.5.2.tgz"
                 },
                 "version": "3.5.2",
-                "time": "2012-07-23T21:51:37+00:00",
+                "time": "2012-07-23T21:51:37-07:00",
                 "require": {
                     "php": ">=5.2.1"
                 },
@@ -644,6 +767,11 @@
                     {
                         "name": "Kevin Burke",
                         "email": "kevin@twilio.com",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Matt Nowack",
+                        "email": "matt@twilio.com",
                         "homepage": ""
                     }
                 ],
@@ -662,7 +790,7 @@
                     "url": "http:\/\/twilio.github.io\/pear\/get\/Services_Twilio-3.5.1.tgz"
                 },
                 "version": "3.5.1",
-                "time": "2012-07-03T02:08:08+00:00",
+                "time": "2012-07-03T02:08:08-07:00",
                 "require": {
                     "php": ">=5.2.1"
                 },
@@ -683,6 +811,11 @@
                     {
                         "name": "Kevin Burke",
                         "email": "kevin@twilio.com",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Matt Nowack",
+                        "email": "matt@twilio.com",
                         "homepage": ""
                     }
                 ],
@@ -701,7 +834,7 @@
                     "url": "http:\/\/twilio.github.io\/pear\/get\/Services_Twilio-3.5.0.tgz"
                 },
                 "version": "3.5.0",
-                "time": "2012-06-30T08:05:51+00:00",
+                "time": "2012-06-30T08:05:51-07:00",
                 "require": {
                     "php": ">=5.2.1"
                 },
@@ -722,6 +855,11 @@
                     {
                         "name": "Kevin Burke",
                         "email": "kevin@twilio.com",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Matt Nowack",
+                        "email": "matt@twilio.com",
                         "homepage": ""
                     }
                 ],
@@ -741,7 +879,7 @@
                     "url": "http:\/\/twilio.github.io\/pear\/get\/Services_Twilio-3.3.2.tgz"
                 },
                 "version": "3.3.2",
-                "time": "2012-05-29T17:47:28+00:00",
+                "time": "2012-05-29T17:47:28-07:00",
                 "require": {
                     "php": ">=5.2.1"
                 },
@@ -762,6 +900,11 @@
                     {
                         "name": "Kevin Burke",
                         "email": "kevin@twilio.com",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Matt Nowack",
+                        "email": "matt@twilio.com",
                         "homepage": ""
                     }
                 ],
@@ -780,7 +923,7 @@
                     "url": "http:\/\/twilio.github.io\/pear\/get\/Services_Twilio-3.2.3.tgz"
                 },
                 "version": "3.2.3",
-                "time": "2011-08-23T18:06:18+00:00",
+                "time": "2011-08-23T18:06:18-07:00",
                 "require": {
                     "php": ">=5.2.1"
                 },
@@ -801,6 +944,11 @@
                     {
                         "name": "Kevin Burke",
                         "email": "kevin@twilio.com",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Matt Nowack",
+                        "email": "matt@twilio.com",
                         "homepage": ""
                     }
                 ],
@@ -819,7 +967,7 @@
                     "url": "http:\/\/twilio.github.io\/pear\/get\/Services_Twilio-3.2.2.tgz"
                 },
                 "version": "3.2.2",
-                "time": "2011-08-04T23:32:40+00:00",
+                "time": "2011-08-04T23:32:40-07:00",
                 "require": {
                     "php": ">=5.2.1"
                 },
@@ -841,6 +989,11 @@
                         "name": "Kevin Burke",
                         "email": "kevin@twilio.com",
                         "homepage": ""
+                    },
+                    {
+                        "name": "Matt Nowack",
+                        "email": "matt@twilio.com",
+                        "homepage": ""
                     }
                 ],
                 "autoload": {
@@ -858,7 +1011,7 @@
                     "url": "http:\/\/twilio.github.io\/pear\/get\/Services_Twilio-3.2.1.tgz"
                 },
                 "version": "3.2.1",
-                "time": "2011-07-30T00:09:59+00:00",
+                "time": "2011-07-30T00:09:59-07:00",
                 "require": {
                     "php": ">=5.2.1"
                 },
@@ -880,6 +1033,11 @@
                     {
                         "name": "Kevin Burke",
                         "email": "kevin@twilio.com",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Matt Nowack",
+                        "email": "matt@twilio.com",
                         "homepage": ""
                     }
                 ],
@@ -897,7 +1055,7 @@
                     "url": "http:\/\/twilio.github.io\/pear\/get\/Services_Twilio-3.2.0.tgz"
                 },
                 "version": "3.2.0",
-                "time": "2011-07-26T13:43:05+00:00",
+                "time": "2011-07-26T13:43:05-07:00",
                 "require": {
                     "php": ">=5.2.1"
                 },
@@ -919,6 +1077,11 @@
                     {
                         "name": "Kevin Burke",
                         "email": "kevin@twilio.com",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Matt Nowack",
+                        "email": "matt@twilio.com",
                         "homepage": ""
                     }
                 ],
@@ -936,7 +1099,7 @@
                     "url": "http:\/\/twilio.github.io\/pear\/get\/Services_Twilio-3.0.1.tgz"
                 },
                 "version": "3.0.1",
-                "time": "2011-07-20T23:08:48+00:00",
+                "time": "2011-07-20T23:08:48-07:00",
                 "require": {
                     "php": ">=5.2.1"
                 },
@@ -958,6 +1121,11 @@
                     {
                         "name": "Kevin Burke",
                         "email": "kevin@twilio.com",
+                        "homepage": ""
+                    },
+                    {
+                        "name": "Matt Nowack",
+                        "email": "matt@twilio.com",
                         "homepage": ""
                     }
                 ],
@@ -975,7 +1143,7 @@
                     "url": "http:\/\/twilio.github.io\/pear\/get\/Services_Twilio-3.0.0.tgz"
                 },
                 "version": "3.0.0",
-                "time": "2011-07-20T01:12:29+00:00",
+                "time": "2011-07-20T01:12:29-07:00",
                 "require": {
                     "php": ">=5.2.1"
                 },
@@ -998,6 +1166,11 @@
                         "name": "Kevin Burke",
                         "email": "kevin@twilio.com",
                         "homepage": ""
+                    },
+                    {
+                        "name": "Matt Nowack",
+                        "email": "matt@twilio.com",
+                        "homepage": ""
                     }
                 ],
                 "autoload": {
@@ -1014,7 +1187,7 @@
                     "url": "http:\/\/twilio.github.io\/pear\/get\/Services_Twilio-0.0.3.tgz"
                 },
                 "version": "0.0.3",
-                "time": "2011-07-19T00:01:50+00:00",
+                "time": "2011-07-19T00:01:50-07:00",
                 "require": {
                     "php": ">=5.2.1",
                     "pear-pear\/HTTP_Request2": "*"
@@ -1037,6 +1210,11 @@
                         "name": "Kevin Burke",
                         "email": "kevin@twilio.com",
                         "homepage": ""
+                    },
+                    {
+                        "name": "Matt Nowack",
+                        "email": "matt@twilio.com",
+                        "homepage": ""
                     }
                 ],
                 "autoload": {
@@ -1050,8 +1228,8 @@
         "description": "PHP helper library for Twilio",
         "maintainers": [
             {
-                "name": "Kevin Burke",
-                "email": "kevin@twilio.com",
+                "name": "Matt Nowack",
+                "email": "matt@twilio.com",
                 "homepage": ""
             }
         ]
